@@ -43,3 +43,7 @@ EOF
 cat "$OUT/dorks.txt"
 
 echo; echo "Done. Results saved in $OUT"
+
+# Build the HTML report
+"$PY" "$BASE/make_report.py" "$OUT"
+xdg-open "$OUT/report.html" >/dev/null 2>&1 &
