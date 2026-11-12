@@ -22,6 +22,12 @@ EOT
     echo "https://yandex.com/search/?text=$Q"
   } > "$OUT/phone_searchlinks.txt"
   cat "$OUT/phone_searchlinks.txt"
+   if [ -n "$TWILIO_SID" ] && [ -n "$TWILIO_TOKEN" ]; then
+    echo "[Twilio Lookup]"
+    curl -s -u "$TWILIO_SID:$TWILIO_TOKEN" \
+      "https://lookups.twilio.com/v2/PhoneNumbers/$(printf %s "$N" | sed 's/+/%2B/')?Fields=line_type_intelligence" \
+      | tee "$OUT/phone_twilio.txt"; echo
+  fi
 }
 
 email_extra() {
