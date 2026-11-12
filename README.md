@@ -54,3 +54,8 @@ Menu option 7 reads the public profile data of an Instagram username
     pipx install instaloader
 Anonymous access is often rate-limited by Instagram. Use only on your
 own account or with written consent. Do not log in with fake accounts.
+
+## Username tools (menu option 8)
+Blackbird, Social-Analyzer, Nexfil. The menu skips any tool that is not installed.
+Manual web tools: epieos.com, whatsmyname.app
+Use only on your own accounts or with written consent.

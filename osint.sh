@@ -73,6 +73,25 @@ do_instagram() {
   finish "$OUT"
 }
 
+do_username2() {
+  read -rp "Username: " U
+  consent || return
+  OUT="$BASE/output/user2_${U}_$STAMP"; mkdir -p "$OUT"
+  if [ -f "$BASE/tools/blackbird/venv/bin/python" ]; then
+    echo "[Blackbird]"
+    (cd "$BASE/tools/blackbird" && venv/bin/python blackbird.py -u "$U") 2>&1 | tee "$OUT/blackbird.txt"
+  fi
+  if command -v social-analyzer >/dev/null; then
+    echo "[Social-Analyzer]"
+    social-analyzer --username "$U" --top 50 --output json 2>&1 | tee "$OUT/social_analyzer.txt"
+  fi
+  if command -v nexfil >/dev/null; then
+    echo "[Nexfil]"
+    nexfil -u "$U" 2>&1 | tee "$OUT/nexfil.txt"
+  fi
+  finish "$OUT"
+}
+
 while true; do
   echo
   echo "===== OSINT LAB MENU ====="
@@ -83,6 +102,7 @@ while true; do
   echo "5) File metadata  (ExifTool)"
   echo "6) Start SpiderFoot web UI"
   echo "7) Instagram profile (Instaloader)"
+  echo "8) Username (Blackbird, Social-Analyzer, Nexfil)"
   echo "0) Exit"
   read -rp "Choose: " c
   case "$c" in
@@ -93,6 +113,7 @@ while true; do
     5) do_file ;;
     6) (cd "$BASE/tools/spiderfoot" && venv/bin/python sf.py -l 127.0.0.1:5001) ;;
     7) do_instagram ;;
+    8) do_username2 ;;
     0) exit 0 ;;
     *) echo "Invalid choice." ;;
   esac
