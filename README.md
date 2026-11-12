@@ -31,3 +31,19 @@ It does not reveal a person's name, address, or live location.
 - In India, processing personal data without consent may violate the
   DPDP Act 2023 and the IT Act 2000.
 - Never publish the `output/` folder.
+
+## Extended toolkit (menu)
+Run `./osint.sh` for a menu covering:
+- Email: Holehe
+- Username: Sherlock, Maigret
+- Domain: theHarvester, whois, dig
+- File metadata: ExifTool
+- SpiderFoot web UI (optional)
+
+Install extras:
+    pipx install holehe
+    pipx install sherlock-project
+    sudo apt install -y theharvester libimage-exiftool-perl
+
+Every menu action asks for a consent confirmation. Use only your own
+data or data you have written permission to test.
