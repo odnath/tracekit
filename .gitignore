@@ -2,3 +2,6 @@ output/
 venv/
 tools/
 .env
+*.bak
+osint_old.sh
+osint_before_extras.sh
