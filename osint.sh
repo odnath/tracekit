@@ -63,6 +63,16 @@ do_file() {
   finish "$OUT"
 }
 
+do_instagram() {
+  read -rp "Your Instagram username: " U
+  consent || return
+  OUT="$BASE/output/insta_${U}_$STAMP"; mkdir -p "$OUT"
+  IPY="$HOME/.local/share/pipx/venvs/instaloader/bin/python"
+  echo "[Instaloader - public profile data]"
+  "$IPY" "$BASE/insta_profile.py" "$U" 2>&1 | tee "$OUT/instaloader.txt"
+  finish "$OUT"
+}
+
 while true; do
   echo
   echo "===== OSINT LAB MENU ====="
@@ -72,6 +82,7 @@ while true; do
   echo "4) Domain         (theHarvester, whois, dig)"
   echo "5) File metadata  (ExifTool)"
   echo "6) Start SpiderFoot web UI"
+  echo "7) Instagram profile (Instaloader)"
   echo "0) Exit"
   read -rp "Choose: " c
   case "$c" in
@@ -81,6 +92,7 @@ while true; do
     4) do_domain ;;
     5) do_file ;;
     6) (cd "$BASE/tools/spiderfoot" && venv/bin/python sf.py -l 127.0.0.1:5001) ;;
+    7) do_instagram ;;
     0) exit 0 ;;
     *) echo "Invalid choice." ;;
   esac

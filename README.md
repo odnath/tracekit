@@ -47,3 +47,10 @@ Install extras:
 
 Every menu action asks for a consent confirmation. Use only your own
 data or data you have written permission to test.
+
+## Instagram profile check (Instaloader)
+Menu option 7 reads the public profile data of an Instagram username
+(user ID, name, bio, counts). Install with:
+    pipx install instaloader
+Anonymous access is often rate-limited by Instagram. Use only on your
+own account or with written consent. Do not log in with fake accounts.
