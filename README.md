@@ -65,3 +65,11 @@ Use only on your own accounts or with written consent.
 - 11 Email: EmailRep, GHunt, Mosint, plus manual Have I Been Pwned
 - 12 Username: Socialscan, user-scanner, plus manual WhatsMyName and Namechk
 Own data or written consent only.
+
+## Combined menu
+./osint.sh groups tools by input type:
+- Phone: phonenumbers, PhoneInfoga, Ignorant, Veriphone (optional key)
+- Email: Holehe, EmailRep, GHunt, Mosint
+- Username: Sherlock, Maigret, Blackbird, Social-Analyzer, Nexfil, Socialscan, user-scanner
+- Full footprint: all three at once, one report
+Missing tools are skipped automatically. Own data or written consent only.
