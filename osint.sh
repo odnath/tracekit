@@ -44,6 +44,7 @@ EOT
   if [ -n "$VERIPHONE_KEY" ]; then
     echo "[Veriphone]"; curl -s "https://api.veriphone.io/v2/verify?phone=${N}&key=${VERIPHONE_KEY}" | tee "$OUT/phone_veriphone.txt"; echo
   fi
+  phone_extra "$N" "$OUT"
   printf "Manual checks (own number only):\nhttps://epieos.com\nhttps://www.truecaller.com\nhttps://sync.me\nWhatsApp/Telegram: ask a friend what they can see of your profile\n" > "$OUT/phone_manual.txt"
 }
 
@@ -59,6 +60,7 @@ email_scan() {
   if has mosint; then
     echo "[Mosint]"; mosint "$E" 2>&1 | tee "$OUT/email_mosint.txt"
   fi
+  email_extra "$E" "$OUT"
   echo "Manual: https://haveibeenpwned.com (own email only)" > "$OUT/email_manual.txt"
 }
 
@@ -118,6 +120,7 @@ do_domain() {
   has theHarvester && { echo "[theHarvester]"; theHarvester -d "$D" -b crtsh,duckduckgo 2>&1 | tee "$OUT/domain_theharvester.txt"; }
   echo "[whois]"; whois "$D" 2>&1 | tee "$OUT/domain_whois.txt"
   echo "[dig]";   dig "$D" ANY +noall +answer 2>&1 | tee "$OUT/domain_dig.txt"
+  domain_extra "$D" "$OUT"
   finish "$OUT"
 }
 
@@ -127,6 +130,7 @@ do_file() {
   consent || return
   OUT="$BASE/output/file_$(basename "$F")_$STAMP"; mkdir -p "$OUT"
   echo "[ExifTool]"; exiftool "$F" 2>&1 | tee "$OUT/file_exiftool.txt"
+  file_extra "$F" "$OUT"
   finish "$OUT"
 }
 
@@ -136,6 +140,7 @@ do_instagram() {
   OUT="$BASE/output/insta_${U}_$STAMP"; mkdir -p "$OUT"
   IPY="$HOME/.local/share/pipx/venvs/instaloader/bin/python"
   echo "[Instaloader]"; "$IPY" "$BASE/insta_profile.py" "$U" 2>&1 | tee "$OUT/insta_instaloader.txt"
+  insta_extra "$U" "$OUT"
   finish "$OUT"
 }
 
@@ -161,6 +166,8 @@ do_check() {
   [ -n "$VERIPHONE_KEY" ] && echo "OK       Veriphone key" || echo "MISSING  Veriphone key (optional)"
 }
 
+source "$BASE/extras.sh"
+
 while true; do
   echo
   echo "===== OSINT LAB MENU ====="
@@ -183,7 +190,7 @@ while true; do
     5) do_file ;;
     6) do_instagram ;;
     7) do_full ;;
-    8) (cd "$BASE/tools/spiderfoot" && venv/bin/python sf.py -l 127.0.0.1:5001) ;;
+    8) do_spiderfoot ;;
     9) do_check ;;
     0) exit 0 ;;
     *) echo "Invalid choice." ;;

@@ -73,3 +73,12 @@ Own data or written consent only.
 - Username: Sherlock, Maigret, Blackbird, Social-Analyzer, Nexfil, Socialscan, user-scanner
 - Full footprint: all three at once, one report
 Missing tools are skipped automatically. Own data or written consent only.
+
+## Extra tools (extras.sh)
+- Phone: extended phonenumbers data, search links
+- Email: MX check, Gravatar, h8mail (own email only)
+- Domain: crt.sh, Wayback, whatweb, wafw00f, sslscan, dnsrecon, subfinder, amass
+- File: file, strings, binwalk, mat2, pdfinfo
+- Instagram: Sherlock/Maigret (Instagram only), manual checklist
+- SpiderFoot menu: web UI, CLI passive scan, recon-ng, Maltego
+Own data or written consent only.
