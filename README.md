@@ -59,3 +59,9 @@ own account or with written consent. Do not log in with fake accounts.
 Blackbird, Social-Analyzer, Nexfil. The menu skips any tool that is not installed.
 Manual web tools: epieos.com, whatsmyname.app
 Use only on your own accounts or with written consent.
+
+## Extra tools (menu options 10-12)
+- 10 Phone: Veriphone API (key in .env) plus manual Epieos, Truecaller, Sync.me
+- 11 Email: EmailRep, GHunt, Mosint, plus manual Have I Been Pwned
+- 12 Username: Socialscan, user-scanner, plus manual WhatsMyName and Namechk
+Own data or written consent only.

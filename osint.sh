@@ -92,6 +92,62 @@ do_username2() {
   finish "$OUT"
 }
 
+do_phone_more() {
+  read -rp "Phone number (+91...): " N
+  consent || return
+  OUT="$BASE/output/phone2_${N//+/}_$STAMP"; mkdir -p "$OUT"
+  set -a; [ -f "$BASE/.env" ] && . "$BASE/.env"; set +a
+  if [ -n "$VERIPHONE_KEY" ]; then
+    echo "[Veriphone]"
+    curl -s "https://api.veriphone.io/v2/verify?phone=${N}&key=${VERIPHONE_KEY}" 2>&1 | tee "$OUT/veriphone.txt"
+    echo
+  fi
+  cat > "$OUT/manual_checks.txt" <<EOT
+Manual checks (own number only):
+https://epieos.com
+https://www.truecaller.com
+https://sync.me
+WhatsApp/Telegram: ask a friend what they can see of your profile
+EOT
+  cat "$OUT/manual_checks.txt"
+  finish "$OUT"
+}
+
+do_email_more() {
+  read -rp "Email address: " E
+  consent || return
+  OUT="$BASE/output/email2_${E//[@.]/_}_$STAMP"; mkdir -p "$OUT"
+  echo "[EmailRep]"
+  curl -s "https://emailrep.io/$E" 2>&1 | tee "$OUT/emailrep.txt"
+  echo
+  if command -v ghunt >/dev/null; then
+    echo "[GHunt]"
+    ghunt email "$E" 2>&1 | tee "$OUT/ghunt.txt"
+  fi
+  if command -v mosint >/dev/null; then
+    echo "[Mosint]"
+    mosint "$E" 2>&1 | tee "$OUT/mosint.txt"
+  fi
+  echo "Manual: https://haveibeenpwned.com (own email only)" | tee "$OUT/manual_checks.txt"
+  finish "$OUT"
+}
+
+do_username_more() {
+  read -rp "Username: " U
+  consent || return
+  OUT="$BASE/output/user3_${U}_$STAMP"; mkdir -p "$OUT"
+  if command -v socialscan >/dev/null; then
+    echo "[Socialscan]"
+    socialscan "$U" 2>&1 | tee "$OUT/socialscan.txt"
+  fi
+  if command -v user-scanner >/dev/null; then
+    echo "[user-scanner]"
+    user-scanner -u "$U" 2>&1 | tee "$OUT/user_scanner.txt"
+  fi
+  printf "Manual:\nhttps://whatsmyname.app\nhttps://namechk.com\n" | tee "$OUT/manual_checks.txt"
+  finish "$OUT"
+}
+
 while true; do
   echo
   echo "===== OSINT LAB MENU ====="
@@ -103,6 +159,9 @@ while true; do
   echo "6) Start SpiderFoot web UI"
   echo "7) Instagram profile (Instaloader)"
   echo "8) Username (Blackbird, Social-Analyzer, Nexfil)"
+  echo "10) Phone extras (Veriphone + manual)"
+  echo "11) Email extras (EmailRep, GHunt, Mosint)"
+  echo "12) Username extras (Socialscan, user-scanner)"
   echo "0) Exit"
   read -rp "Choose: " c
   case "$c" in
@@ -114,6 +173,9 @@ while true; do
     6) (cd "$BASE/tools/spiderfoot" && venv/bin/python sf.py -l 127.0.0.1:5001) ;;
     7) do_instagram ;;
     8) do_username2 ;;
+    10) do_phone_more ;;
+    11) do_email_more ;;
+    12) do_username_more ;;
     0) exit 0 ;;
     *) echo "Invalid choice." ;;
   esac
