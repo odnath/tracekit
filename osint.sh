@@ -167,20 +167,20 @@ do_check() {
 }
 
 source "$BASE/extras.sh"
+source "$BASE/banner.sh"
 
 while true; do
-  echo
-  echo "===== OSINT LAB MENU ====="
-  echo "1) Phone      (phonenumbers, PhoneInfoga, Ignorant, Veriphone)"
-  echo "2) Email      (Holehe, EmailRep, GHunt, Mosint)"
-  echo "3) Username   (Sherlock, Maigret, Blackbird, Social-Analyzer, Nexfil, Socialscan, user-scanner)"
-  echo "4) Domain     (theHarvester, whois, dig)"
-  echo "5) File       (ExifTool)"
-  echo "6) Instagram  (Instaloader)"
-  echo "7) FULL footprint (phone + email + username together)"
-  echo "8) SpiderFoot web UI"
-  echo "9) Check installed tools"
-  echo "0) Exit"
+  banner
+  echo -e "\033[1;33m1)\033[0m Phone      (phonenumbers, PhoneInfoga, Ignorant, Veriphone)"
+  echo -e "\033[1;33m2)\033[0m Email      (Holehe, EmailRep, GHunt, Mosint)"
+  echo -e "\033[1;33m3)\033[0m Username   (Sherlock, Maigret, Blackbird, Social-Analyzer, Nexfil, Socialscan, user-scanner)"
+  echo -e "\033[1;33m4)\033[0m Domain     (theHarvester, whois, dig)"
+  echo -e "\033[1;33m5)\033[0m File       (ExifTool)"
+  echo -e "\033[1;33m6)\033[0m Instagram  (Instaloader)"
+  echo -e "\033[1;33m7)\033[0m FULL footprint (phone + email + username together)"
+  echo -e "\033[1;33m8)\033[0m SpiderFoot web UI"
+  echo -e "\033[1;33m9)\033[0m Check installed tools"
+  echo -e "\033[1;33m0)\033[0m Exit"
   read -rp "Choose: " c
   case "$c" in
     1) do_phone ;;
