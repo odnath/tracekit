@@ -1,4 +1,4 @@
-# Phone Number OSINT Lab (Educational)
+# TraceKit: Educational OSINT Toolkit
 
 A small Kali Linux toolkit that runs several public-source tools against
 one phone number and builds an HTML report.
