@@ -33,7 +33,7 @@ It does not reveal a person's name, address, or live location.
 - Never publish the `output/` folder.
 
 ## Extended toolkit (menu)
-Run `./osint.sh` for a menu covering:
+Run `./tracekit.sh` for a menu covering:
 - Email: Holehe
 - Username: Sherlock, Maigret
 - Domain: theHarvester, whois, dig
@@ -67,7 +67,7 @@ Use only on your own accounts or with written consent.
 Own data or written consent only.
 
 ## Combined menu
-./osint.sh groups tools by input type:
+./tracekit.sh groups tools by input type:
 - Phone: phonenumbers, PhoneInfoga, Ignorant, Veriphone (optional key)
 - Email: Holehe, EmailRep, GHunt, Mosint
 - Username: Sherlock, Maigret, Blackbird, Social-Analyzer, Nexfil, Socialscan, user-scanner
