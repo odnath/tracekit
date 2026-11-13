@@ -36,10 +36,10 @@ print("Timezone:", timezone.time_zones_for_number(n))
 print("International:", p.format_number(n, p.PhoneNumberFormat.INTERNATIONAL))
 EOT
   if has phoneinfoga; then
-    run_tool "PhoneInfoga" "$OUT/phone_phoneinfoga.txt" phoneinfoga scan -n "$N"
+    echo "[PhoneInfoga]"; phoneinfoga scan -n "$N" 2>&1 | tee "$OUT/phone_phoneinfoga.txt"
   fi
   if has ignorant; then
-    run_tool "Ignorant" "$OUT/phone_ignorant.txt" ignorant --no-clear --no-color "+$CC" "$NATIONAL"
+    echo "[Ignorant]"; ignorant --no-clear --no-color "+$CC" "$NATIONAL" 2>&1 | tee "$OUT/phone_ignorant.txt"
   fi
   if [ -n "$VERIPHONE_KEY" ]; then
     echo "[Veriphone]"; curl -s "https://api.veriphone.io/v2/verify?phone=${N}&key=${VERIPHONE_KEY}" | tee "$OUT/phone_veriphone.txt"; echo
@@ -51,14 +51,14 @@ EOT
 email_scan() {
   local E="$1" OUT="$2"
   if has holehe; then
-    run_tool "Holehe" "$OUT/email_holehe.txt" holehe --no-color --no-clear --only-used "$E"
+    echo "[Holehe]"; holehe --no-color --no-clear --only-used "$E" 2>&1 | tee "$OUT/email_holehe.txt"
   fi
-  run_tool "EmailRep" "$OUT/email_emailrep.txt" curl -s "https://emailrep.io/$E"; echo
+  echo "[EmailRep]"; curl -s "https://emailrep.io/$E" 2>&1 | tee "$OUT/email_emailrep.txt"; echo
   if has ghunt; then
-    run_tool "GHunt" "$OUT/email_ghunt.txt" ghunt email "$E"
+    echo "[GHunt]"; ghunt email "$E" 2>&1 | tee "$OUT/email_ghunt.txt"
   fi
   if has mosint; then
-    run_tool "Mosint" "$OUT/email_mosint.txt" mosint "$E"
+    echo "[Mosint]"; mosint "$E" 2>&1 | tee "$OUT/email_mosint.txt"
   fi
   email_extra "$E" "$OUT"
   echo "Manual: https://haveibeenpwned.com (own email only)" > "$OUT/email_manual.txt"
@@ -67,25 +67,25 @@ email_scan() {
 user_scan() {
   local U="$1" OUT="$2"
   if has sherlock; then
-    run_tool "Sherlock" "$OUT/user_sherlock_log.txt" sherlock "$U" --print-found --timeout 10 --output "$OUT/user_sherlock.txt"
+    echo "[Sherlock]"; sherlock "$U" --print-found --timeout 10 --output "$OUT/user_sherlock.txt" 2>&1 | tee "$OUT/user_sherlock_log.txt"
   fi
   if has maigret; then
-    run_tool "Maigret" "$OUT/user_maigret.txt" maigret "$U" --no-progressbar --no-color -T --folderoutput "$OUT/maigret"
+    echo "[Maigret]"; maigret "$U" --no-progressbar --no-color -T --folderoutput "$OUT/maigret" 2>&1 | tee "$OUT/user_maigret.txt"
   fi
   if [ -f "$BASE/tools/blackbird/venv/bin/python" ]; then
-    run_tool "Blackbird" "$OUT/user_blackbird.txt" (cd "$BASE/tools/blackbird" && venv/bin/python blackbird.py -u "$U")
+    echo "[Blackbird]"; (cd "$BASE/tools/blackbird" && venv/bin/python blackbird.py -u "$U") 2>&1 | tee "$OUT/user_blackbird.txt"
   fi
   if has social-analyzer; then
-    run_tool "Social-Analyzer" "$OUT/user_social_analyzer.txt" social-analyzer --username "$U" --top 50 --output json
+    echo "[Social-Analyzer]"; social-analyzer --username "$U" --top 50 --output json 2>&1 | tee "$OUT/user_social_analyzer.txt"
   fi
   if has nexfil; then
-    run_tool "Nexfil" "$OUT/user_nexfil.txt" nexfil -u "$U"
+    echo "[Nexfil]"; nexfil -u "$U" 2>&1 | tee "$OUT/user_nexfil.txt"
   fi
   if has socialscan; then
-    run_tool "Socialscan" "$OUT/user_socialscan.txt" socialscan "$U"
+    echo "[Socialscan]"; socialscan "$U" 2>&1 | tee "$OUT/user_socialscan.txt"
   fi
   if has user-scanner; then
-    run_tool "user-scanner" "$OUT/user_userscanner.txt" user-scanner -u "$U"
+    echo "[user-scanner]"; user-scanner -u "$U" 2>&1 | tee "$OUT/user_userscanner.txt"
   fi
   printf "Manual:\nhttps://whatsmyname.app\nhttps://namechk.com\n" > "$OUT/user_manual.txt"
 }
@@ -117,9 +117,9 @@ do_domain() {
   read -rp "Domain you own (example.com): " D
   consent || return
   OUT="$BASE/output/domain_${D}_$STAMP"; mkdir -p "$OUT"
-  has theHarvester && { run_tool "theHarvester" "$OUT/domain_theharvester.txt" theHarvester -d "$D" -b crtsh,duckduckgo; }
-  run_tool "whois" "$OUT/domain_whois.txt" whois "$D"
-  run_tool "dig" "$OUT/domain_dig.txt" dig "$D" ANY +noall +answer
+  has theHarvester && { echo "[theHarvester]"; theHarvester -d "$D" -b crtsh,duckduckgo 2>&1 | tee "$OUT/domain_theharvester.txt"; }
+  echo "[whois]"; whois "$D" 2>&1 | tee "$OUT/domain_whois.txt"
+  echo "[dig]";   dig "$D" ANY +noall +answer 2>&1 | tee "$OUT/domain_dig.txt"
   domain_extra "$D" "$OUT"
   finish "$OUT"
 }
@@ -129,7 +129,7 @@ do_file() {
   [ -f "$F" ] || { echo "File not found."; return; }
   consent || return
   OUT="$BASE/output/file_$(basename "$F")_$STAMP"; mkdir -p "$OUT"
-  run_tool "ExifTool" "$OUT/file_exiftool.txt" exiftool "$F"
+  echo "[ExifTool]"; exiftool "$F" 2>&1 | tee "$OUT/file_exiftool.txt"
   file_extra "$F" "$OUT"
   finish "$OUT"
 }
@@ -139,7 +139,7 @@ do_instagram() {
   consent || return
   OUT="$BASE/output/insta_${U}_$STAMP"; mkdir -p "$OUT"
   IPY="$HOME/.local/share/pipx/venvs/instaloader/bin/python"
-  run_tool "Instaloader" "$OUT/insta_instaloader.txt" "$IPY" "$BASE/insta_profile.py" "$U"
+  echo "[Instaloader]"; "$IPY" "$BASE/insta_profile.py" "$U" 2>&1 | tee "$OUT/insta_instaloader.txt"
   insta_extra "$U" "$OUT"
   finish "$OUT"
 }
