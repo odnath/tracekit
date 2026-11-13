@@ -168,6 +168,8 @@ do_check() {
 
 source "$BASE/extras.sh"
 source "$BASE/banner.sh"
+source "$BASE/animation.sh"
+intro_animation
 
 while true; do
   banner
