@@ -1,9 +1,12 @@
-# TraceKit banner, sourced by osint.sh
+# TraceKit banner, sourced by tracekit.sh
 banner() {
-  local C='\033[1;36m' G='\033[0;32m' Y='\033[1;33m' R='\033[0m'
+  load_theme
   clear
-  printf "${C}"
-  cat <<'ART'
+  local i=0 line
+  while IFS= read -r line; do
+    printf '%s%s%s\n' "$(fg ${LOGO[i]})" "$line" "$NC"
+    i=$((i+1))
+  done <<'ART'
  ████████╗██████╗  █████╗  ██████╗███████╗██╗  ██╗██╗████████╗
  ╚══██╔══╝██╔══██╗██╔══██╗██╔════╝██╔════╝██║ ██╔╝██║╚══██╔══╝
     ██║   ██████╔╝███████║██║     █████╗  █████╔╝ ██║   ██║
@@ -11,6 +14,6 @@ banner() {
     ██║   ██║  ██║██║  ██║╚██████╗███████╗██║  ██╗██║   ██║
     ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝╚══════╝╚═╝  ╚═╝╚═╝   ╚═╝
 ART
-  printf "${R}${G}        Educational OSINT Toolkit  |  Own data or consent only${R}\n"
-  printf "${Y}        ─────────────────────────────────────────────${R}\n"
+  printf '%s        Educational OSINT Toolkit  |  Own data or consent only%s\n' "$(fg $ACC)" "$NC"
+  printf '\033[38;5;240m        ─────────────────────────────────────────────%s\n\n' "$NC"
 }

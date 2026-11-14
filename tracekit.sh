@@ -168,6 +168,7 @@ do_check() {
 
 source "$BASE/runner.sh"
 source "$BASE/extras.sh"
+source "$BASE/theme.sh"
 source "$BASE/banner.sh"
 source "$BASE/animation2.sh"
 [ "$1" = "--fast" ] || intro_animation
@@ -184,6 +185,7 @@ while true; do
   echo -e "\033[1;33m8)\033[0m SpiderFoot web UI"
   echo -e "\033[1;33m9)\033[0m Check installed tools"
   echo -e "\033[1;33m0)\033[0m Exit"
+  print_menu
   read -rp "Choose: " c
   case "$c" in
     1) do_phone ;;
@@ -195,6 +197,7 @@ while true; do
     7) do_full ;;
     8) do_spiderfoot ;;
     9) do_check ;;
+    t) choose_theme ;;
     0) exit 0 ;;
     *) echo "Invalid choice." ;;
   esac
