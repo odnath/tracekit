@@ -13,3 +13,5 @@ tracekit_pre_theme.sh
 tracekit_pre_loopfix.sh
 tracekit_old_backup.sh
 tracekit_pre_*.sh
+tracekit_old_backup.sh
+tracekit_pre_*.sh
