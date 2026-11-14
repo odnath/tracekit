@@ -7,3 +7,4 @@ osint_old.sh
 osint_before_extras.sh
 osint_pre_banner.sh
 tracekit_pre_runner.sh
+tracekit_pre_anim2.sh

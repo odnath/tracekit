@@ -169,8 +169,8 @@ do_check() {
 source "$BASE/runner.sh"
 source "$BASE/extras.sh"
 source "$BASE/banner.sh"
-source "$BASE/animation.sh"
-intro_animation
+source "$BASE/animation2.sh"
+[ "$1" = "--fast" ] || intro_animation
 
 while true; do
   banner
