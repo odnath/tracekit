@@ -186,6 +186,7 @@ while true; do
   echo -e "\033[1;33m9)\033[0m Check installed tools"
   echo -e "\033[1;33m0)\033[0m Exit"
   print_menu
+  print_menu
   read -rp "Choose: " c
   case "$c" in
     1) do_phone ;;
