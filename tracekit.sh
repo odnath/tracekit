@@ -1,4 +1,5 @@
 #!/bin/bash
+# TraceKit main script. One menu, printed once, from print_menu in theme.sh.
 BASE="$(cd "$(dirname "$0")" && pwd)"
 PY="$BASE/venv/bin/python"
 STAMP="$(date +%F_%H%M)"
@@ -15,10 +16,14 @@ finish() {
   "$PY" "$BASE/make_generic_report.py" "$1"
   xdg-open "$1/report.html" >/dev/null 2>&1 &
   echo "Saved in: $1"
+  read -rp "Press Enter to return to the menu..." _
 }
 
-# ---------- scan functions (each takes target + output folder) ----------
+for f in runner theme banner extras animation2; do
+  [ -f "$BASE/$f.sh" ] && source "$BASE/$f.sh"
+done
 
+# ---------- scans ----------
 phone_scan() {
   local N="$1" OUT="$2" CC NATIONAL
   read CC NATIONAL < <("$PY" -c "
@@ -35,63 +40,39 @@ print("Carrier:", carrier.name_for_number(n, "en"))
 print("Timezone:", timezone.time_zones_for_number(n))
 print("International:", p.format_number(n, p.PhoneNumberFormat.INTERNATIONAL))
 EOT
-  if has phoneinfoga; then
-    echo "[PhoneInfoga]"; phoneinfoga scan -n "$N" 2>&1 | tee "$OUT/phone_phoneinfoga.txt"
-  fi
-  if has ignorant; then
-    echo "[Ignorant]"; ignorant --no-clear --no-color "+$CC" "$NATIONAL" 2>&1 | tee "$OUT/phone_ignorant.txt"
-  fi
+  has phoneinfoga && run_tool "PhoneInfoga" "$OUT/phone_phoneinfoga.txt" phoneinfoga scan -n "$N"
+  has ignorant && run_tool "Ignorant" "$OUT/phone_ignorant.txt" ignorant --no-clear --no-color "+$CC" "$NATIONAL"
   if [ -n "$VERIPHONE_KEY" ]; then
-    echo "[Veriphone]"; curl -s "https://api.veriphone.io/v2/verify?phone=${N}&key=${VERIPHONE_KEY}" | tee "$OUT/phone_veriphone.txt"; echo
+    run_tool "Veriphone" "$OUT/phone_veriphone.txt" curl -s "https://api.veriphone.io/v2/verify?phone=${N}&key=${VERIPHONE_KEY}"
   fi
-  phone_extra "$N" "$OUT"
+  declare -F phone_extra >/dev/null && phone_extra "$N" "$OUT"
   printf "Manual checks (own number only):\nhttps://epieos.com\nhttps://www.truecaller.com\nhttps://sync.me\nWhatsApp/Telegram: ask a friend what they can see of your profile\n" > "$OUT/phone_manual.txt"
 }
 
 email_scan() {
   local E="$1" OUT="$2"
-  if has holehe; then
-    echo "[Holehe]"; holehe --no-color --no-clear --only-used "$E" 2>&1 | tee "$OUT/email_holehe.txt"
-  fi
-  echo "[EmailRep]"; curl -s "https://emailrep.io/$E" 2>&1 | tee "$OUT/email_emailrep.txt"; echo
-  if has ghunt; then
-    echo "[GHunt]"; ghunt email "$E" 2>&1 | tee "$OUT/email_ghunt.txt"
-  fi
-  if has mosint; then
-    echo "[Mosint]"; mosint "$E" 2>&1 | tee "$OUT/email_mosint.txt"
-  fi
-  email_extra "$E" "$OUT"
+  has holehe && run_tool "Holehe" "$OUT/email_holehe.txt" holehe --no-color --no-clear --only-used "$E"
+  run_tool "EmailRep" "$OUT/email_emailrep.txt" curl -s "https://emailrep.io/$E"
+  has ghunt && run_tool "GHunt" "$OUT/email_ghunt.txt" ghunt email "$E"
+  has mosint && run_tool "Mosint" "$OUT/email_mosint.txt" mosint "$E"
+  declare -F email_extra >/dev/null && email_extra "$E" "$OUT"
   echo "Manual: https://haveibeenpwned.com (own email only)" > "$OUT/email_manual.txt"
 }
 
 user_scan() {
   local U="$1" OUT="$2"
-  if has sherlock; then
-    echo "[Sherlock]"; sherlock "$U" --print-found --timeout 10 --output "$OUT/user_sherlock.txt" 2>&1 | tee "$OUT/user_sherlock_log.txt"
-  fi
-  if has maigret; then
-    echo "[Maigret]"; maigret "$U" --no-progressbar --no-color -T --folderoutput "$OUT/maigret" 2>&1 | tee "$OUT/user_maigret.txt"
-  fi
-  if [ -f "$BASE/tools/blackbird/venv/bin/python" ]; then
-    echo "[Blackbird]"; (cd "$BASE/tools/blackbird" && venv/bin/python blackbird.py -u "$U") 2>&1 | tee "$OUT/user_blackbird.txt"
-  fi
-  if has social-analyzer; then
-    echo "[Social-Analyzer]"; social-analyzer --username "$U" --top 50 --output json 2>&1 | tee "$OUT/user_social_analyzer.txt"
-  fi
-  if has nexfil; then
-    echo "[Nexfil]"; nexfil -u "$U" 2>&1 | tee "$OUT/user_nexfil.txt"
-  fi
-  if has socialscan; then
-    echo "[Socialscan]"; socialscan "$U" 2>&1 | tee "$OUT/user_socialscan.txt"
-  fi
-  if has user-scanner; then
-    echo "[user-scanner]"; user-scanner -u "$U" 2>&1 | tee "$OUT/user_userscanner.txt"
-  fi
+  has sherlock && run_tool "Sherlock" "$OUT/user_sherlock_log.txt" sherlock "$U" --print-found --timeout 10 --output "$OUT/user_sherlock.txt"
+  has maigret && run_tool "Maigret" "$OUT/user_maigret.txt" maigret "$U" --no-progressbar --no-color -T --folderoutput "$OUT/maigret"
+  [ -f "$BASE/tools/blackbird/venv/bin/python" ] && run_tool "Blackbird" "$OUT/user_blackbird.txt" \
+    bash -c 'cd "$1/tools/blackbird" && venv/bin/python blackbird.py -u "$2"' _ "$BASE" "$U"
+  has social-analyzer && run_tool "Social-Analyzer" "$OUT/user_social_analyzer.txt" social-analyzer --username "$U" --top 50 --output json
+  has nexfil && run_tool "Nexfil" "$OUT/user_nexfil.txt" nexfil -u "$U"
+  has socialscan && run_tool "Socialscan" "$OUT/user_socialscan.txt" socialscan "$U"
+  has user-scanner && run_tool "user-scanner" "$OUT/user_userscanner.txt" user-scanner -u "$U"
   printf "Manual:\nhttps://whatsmyname.app\nhttps://namechk.com\n" > "$OUT/user_manual.txt"
 }
 
 # ---------- menu actions ----------
-
 do_phone() {
   read -rp "Phone number (+91...): " N
   consent || return
@@ -117,20 +98,20 @@ do_domain() {
   read -rp "Domain you own (example.com): " D
   consent || return
   OUT="$BASE/output/domain_${D}_$STAMP"; mkdir -p "$OUT"
-  has theHarvester && { echo "[theHarvester]"; theHarvester -d "$D" -b crtsh,duckduckgo 2>&1 | tee "$OUT/domain_theharvester.txt"; }
-  echo "[whois]"; whois "$D" 2>&1 | tee "$OUT/domain_whois.txt"
-  echo "[dig]";   dig "$D" ANY +noall +answer 2>&1 | tee "$OUT/domain_dig.txt"
-  domain_extra "$D" "$OUT"
+  has theHarvester && run_tool "theHarvester" "$OUT/domain_theharvester.txt" theHarvester -d "$D" -b crtsh,duckduckgo
+  run_tool "whois" "$OUT/domain_whois.txt" whois "$D"
+  run_tool "dig" "$OUT/domain_dig.txt" dig "$D" ANY +noall +answer
+  declare -F domain_extra >/dev/null && domain_extra "$D" "$OUT"
   finish "$OUT"
 }
 
 do_file() {
   read -rp "Path to your photo/document: " F
-  [ -f "$F" ] || { echo "File not found."; return; }
+  [ -f "$F" ] || { echo "File not found."; sleep 1; return; }
   consent || return
   OUT="$BASE/output/file_$(basename "$F")_$STAMP"; mkdir -p "$OUT"
-  echo "[ExifTool]"; exiftool "$F" 2>&1 | tee "$OUT/file_exiftool.txt"
-  file_extra "$F" "$OUT"
+  run_tool "ExifTool" "$OUT/file_exiftool.txt" exiftool "$F"
+  declare -F file_extra >/dev/null && file_extra "$F" "$OUT"
   finish "$OUT"
 }
 
@@ -139,8 +120,8 @@ do_instagram() {
   consent || return
   OUT="$BASE/output/insta_${U}_$STAMP"; mkdir -p "$OUT"
   IPY="$HOME/.local/share/pipx/venvs/instaloader/bin/python"
-  echo "[Instaloader]"; "$IPY" "$BASE/insta_profile.py" "$U" 2>&1 | tee "$OUT/insta_instaloader.txt"
-  insta_extra "$U" "$OUT"
+  [ -f "$IPY" ] && run_tool "Instaloader" "$OUT/insta_instaloader.txt" "$IPY" "$BASE/insta_profile.py" "$U"
+  declare -F insta_extra >/dev/null && insta_extra "$U" "$OUT"
   finish "$OUT"
 }
 
@@ -158,34 +139,19 @@ do_full() {
 }
 
 do_check() {
+  local t
   for t in phoneinfoga ignorant holehe ghunt mosint maigret sherlock social-analyzer nexfil socialscan user-scanner theHarvester exiftool whois dig; do
     has "$t" && echo "OK       $t" || echo "MISSING  $t"
   done
   [ -f "$PY" ] && echo "OK       phonenumbers venv" || echo "MISSING  phonenumbers venv"
   [ -f "$BASE/tools/blackbird/venv/bin/python" ] && echo "OK       blackbird" || echo "MISSING  blackbird"
-  [ -n "$VERIPHONE_KEY" ] && echo "OK       Veriphone key" || echo "MISSING  Veriphone key (optional)"
 }
 
-source "$BASE/runner.sh"
-source "$BASE/extras.sh"
-source "$BASE/theme.sh"
-source "$BASE/banner.sh"
-source "$BASE/animation2.sh"
-[ "$1" = "--fast" ] || intro_animation
+# ---------- start ----------
+[ "$1" = "--fast" ] || { declare -F intro_animation >/dev/null && intro_animation; }
 
 while true; do
   banner
-  echo -e "\033[1;33m1)\033[0m Phone      (phonenumbers, PhoneInfoga, Ignorant, Veriphone)"
-  echo -e "\033[1;33m2)\033[0m Email      (Holehe, EmailRep, GHunt, Mosint)"
-  echo -e "\033[1;33m3)\033[0m Username   (Sherlock, Maigret, Blackbird, Social-Analyzer, Nexfil, Socialscan, user-scanner)"
-  echo -e "\033[1;33m4)\033[0m Domain     (theHarvester, whois, dig)"
-  echo -e "\033[1;33m5)\033[0m File       (ExifTool)"
-  echo -e "\033[1;33m6)\033[0m Instagram  (Instaloader)"
-  echo -e "\033[1;33m7)\033[0m FULL footprint (phone + email + username together)"
-  echo -e "\033[1;33m8)\033[0m SpiderFoot web UI"
-  echo -e "\033[1;33m9)\033[0m Check installed tools"
-  echo -e "\033[1;33m0)\033[0m Exit"
-  print_menu
   print_menu
   read -rp "Choose: " c
   case "$c" in
@@ -197,9 +163,9 @@ while true; do
     6) do_instagram ;;
     7) do_full ;;
     8) do_spiderfoot ;;
-    9) do_check ;;
-    t) choose_theme ;;
+    9) do_check; read -rp "Press Enter to continue..." _ ;;
+    t|T) choose_theme ;;
     0) exit 0 ;;
-    *) echo "Invalid choice." ;;
+    *) echo "Invalid choice."; sleep 1 ;;
   esac
 done
