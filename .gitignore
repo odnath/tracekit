@@ -1,14 +1,9 @@
 *.bak
 .env
-modules/
 osint_before_extras.sh
 osint_old.sh
 osint_pre_banner.sh
-output/
-recon.py
-scope.txt
 .theme
-tools/
 tracekit_old_backup.sh
 tracekit_pre_anim2.sh
 tracekit_pre_loopfix.sh
