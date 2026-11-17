@@ -1,0 +1,71 @@
+[+] MAIGRET - collect a dossier by username from 3000+ sites
+[♥] Support Maigret — sites database & development
+[♥] Donate on Patreon: https://www.patreon.com/soxoj
+[+] Using sites database: /home/adhi/.local/share/pipx/venvs/maigret/lib/python3.14/site-packages/maigret/resources/data.json (5897 sites)
+[-] Starting a search on top 509 sites from the Maigret database...
+[!] You can run search by full list of sites with flag `-a`
+[*] Checking username adinathmnair on:
+[+] Behance: https://www.behance.net/adinathmnair
+ ├─uid: 1037203741
+ ├─username: adinathmnair
+ ├─fullname: Adinath M nair
+ ├─image: https://pps.services.adobe.com/api/profile/image/default/bb99dbb8-eab4-438d-ab41-f2f9f1b8ead3/276
+ ├─location: India
+ ├─created_at: 2021-08-06 10:56:31 UTC
+ ├─follower_count: 0
+ ├─following_count: 2
+ ├─views_count: 0
+ └─appreciations: 0
+[+] Twitter: https://twitter.com/adinathmnair
+ ├─uid: VXNlcjoyMTE5NDk3OTY5ODI1NDExMDcz
+ ├─fullname: Adinath M nair
+ ├─created_at: 2026-11-08 18:31:48+00:00
+ ├─image: https://abs.twimg.com/sticky/default_profile_images/default_profile.png
+ ├─is_protected: False
+ ├─follower_count: 0
+ ├─following_count: 0
+ └─favourites_count: 0
+[+] Pinterest: https://www.pinterest.com/adinathmnair/
+ ├─uid: 1013310122317101152
+ ├─username: adinathmnair
+ ├─fullname: girl gorl
+ ├─bio: cool
+ ├─image: https://i.pinimg.com/280x280_RS/29/05/ba/2905ba7f0148423f2f6ee31a2716a45e.jpg
+ ├─follower_count: 7
+ ├─following_count: 14
+ ├─posts_count: 92
+ ├─is_private: False
+ ├─is_indexed: True
+ ├─is_partner: False
+ ├─is_verified_merchant: False
+ ├─is_website_verified: False
+ ├─created_at: Mon, 08 Sep 2025 07:29:36 +0000
+ └─latest_activity_at: Thu, 27 Aug 2026 17:01:29 +0000
+[+] OpenSea: https://opensea.io/adinathmnair
+[+] LeetCode: https://leetcode.com/u/adinathmnair/
+ ├─username: adinathmnair
+ ├─fullname: adinathmnair
+ ├─image: https://assets.leetcode.com/users/default_avatar.jpg
+ └─ranking: 5000001
+[+] Picsart: https://picsart.com/u/adinathmnair
+ ├─picsart_id: 365826698042101
+ ├─picsart_username: adinathmnair
+ ├─fullname: Adinath M nair
+ ├─image: https://cdn190.picsart.com/232804661007900.png
+ ├─follower_count: 0
+ ├─following_count: 2
+ ├─likes_count: 0
+ ├─photos_count: 0
+ └─is_verified: False
+[+] FilmWeb: https://www.filmweb.pl/user/adinathmnair
+[+] Smule: https://www.smule.com/adinathmnair
+[!] Too many errors of type "Bot protection" (13.16%). Try to switch to another ip address
+[!] Too many errors of type "Access denied" (3.34%). It's recommended to use --cloudflare-bypass or a proxy, e.g. https://www.rapidproxy.io/?ref=soxoj
+[-] You can see detailed site check errors with a flag `--print-errors`
+[-] Extracted IDs: {'adinathmnair': 'username'}
+[-] TXT report for adinathmnair saved in /home/adhi/osint-phone-lab/output/user_adinathmnair_2026-11-12_1541/maigret/report_adinathmnair.txt
+[*] Short text report:
+Search by username adinathmnair returned 8 accounts.
+Extended info extracted from 5 accounts.
+Countries: pl
+Interests (tags): art, design, social, photo, business, messaging, sharing, crypto, nft, coding, education, tech, movies, apps, music

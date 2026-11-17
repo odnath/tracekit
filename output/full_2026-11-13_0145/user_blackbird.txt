@@ -1,0 +1,23 @@
+
+    ▄▄▄▄    ██▓    ▄▄▄       ▄████▄   ██ ▄█▀ ▄▄▄▄    ██▓ ██▀███  ▓█████▄ 
+    ▓█████▄ ▓██▒   ▒████▄    ▒██▀ ▀█   ██▄█▒ ▓█████▄ ▓██▒▓██ ▒ ██▒▒██▀ ██▌
+    ▒██▒ ▄██▒██░   ▒██  ▀█▄  ▒▓█    ▄ ▓███▄░ ▒██▒ ▄██▒██▒▓██ ░▄█ ▒░██   █▌
+    ▒██░█▀  ▒██░   ░██▄▄▄▄██ ▒▓▓▄ ▄██▒▓██ █▄ ▒██░█▀  ░██░▒██▀▀█▄  ░▓█▄   ▌
+    ░▓█  ▀█▓░██████▒▓█   ▓██▒▒ ▓███▀ ░▒██▒ █▄░▓█  ▀█▓░██░░██▓ ▒██▒░▒████▓ 
+    ░▒▓███▀▒░ ▒░▓  ░▒▒   ▓▒█░░ ░▒ ▒  ░▒ ▒▒ ▓▒░▒▓███▀▒░▓  ░ ▒▓ ░▒▓░ ▒▒▓  ▒ 
+    ▒░▒   ░ ░ ░ ▒  ░ ▒   ▒▒ ░  ░  ▒   ░ ░▒ ▒░▒░▒   ░  ▒ ░  ░▒ ░ ▒░ ░ ▒  ▒ 
+    ░    ░   ░ ░    ░   ▒   ░        ░ ░░ ░  ░    ░  ▒ ░  ░░   ░  ░ ░  ░ 
+    ░          ░  ░     ░  ░░ ░      ░  ░    ░       ░     ░        ░    
+        ░                  ░                     ░               ░      
+
+    
+             Use --permuteall to combine all elements of the username. | by Lucas 
+Antoniaci
+🔄 Checking for updates...
+✔️  Sites List is up to date
+  ✔️  [Calendy] https://calendly.com/api/booking/profiles/adhi.mn
+  ✔️  [chatango.com] https://adhi.mn.chatango.com
+  ✔️  [Instagram] https://www.instagram.com/adhi.mn/
+  ✔️  [resumes_actorsaccess] https://resumes.actorsaccess.com/adhi.mn
+  ✔️  [OpenStreetMap] https://www.openstreetmap.org/user/adhi.mn
+🛰️  Enumerating accounts with username "adhi.mn" — 100% (691/691)🏁 Check completed in 67.7 seconds

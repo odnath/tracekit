@@ -1,0 +1,32 @@
+      _   _ ___  ___ _ __      ___  ___ __ _ _ __  _ __   ___ _ __
+     | | | / __|/ _ \ '__|____/ __|/ __/ _` | '_ \| '_ \ / _ \ '__|
+     | |_| \__ \  __/ | |_____\__ \ (_| (_| | | | | | | |  __/ |
+      \__,_|___/\___|_|       |___/\___\__,_|_| |_|_| |_|\___|_| Version: 1.5.2.5
+
+      🌐 Web App: https://user-scanner.app
+
+
+ Checking username: adhi.mn
+
+== SHOPPING SITES ==
+  [✔] Tindie (adhi.mn): Found
+
+== SOCIAL SITES ==
+  [✔] Instagram (adhi.mn): Found
+      ├── fullname: Adinath M Nair
+      ├── follower_count: 1,275
+      ├── following_count: 8,438
+      ├── post_count: 1
+      ├── id: 37025380467
+      └── avatar: https://scontent.cdninstagram.com/v/t51.82787-19/842281552_18110899871236468_4174940710132845201_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=107&ig_cache_key=GFAyNDJ0QWN5xFdAAJEKycF0XvA5bmNDAQAB1501500j-ccb7-5&ccb=7-5&_nc_sid=669407&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=C-Du34IE1eYQ7kNvwGK5NxD&_nc_oc=AdqLQHhuFmDMUi53bPdfSx6AZ45ZDGAe-G7p_PO5P5FirAADC9moJIUs95B1I8BWDAxrEgimgxU61qkblvIUFWSr&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=dCWg5_mXzH2L_PxWrVo5Tg&_nc_ss=7b689&oh=00_AQR7qB1O5QLs1siqIg2WypGnrW4_9-IWz8Y8VHGuWJbf8w&oe=6AFBF04C
+
+
+[i] Scan complete.
+  Total hits: 2
+
+[!] 83 site(s) were unreachable due to regional blocks or rate limits (403/timeout).
+    Tip: Route scans with -P/--proxy-file to get verdicts from blocked sites.
+    Tested provider: https://proxy-seller.com/?partner=A711D0DB08424F5A (use code KAIF15 for 15% off)
+
+🌐 Web platform: https://user-scanner.app — Advanced email OSINT, data breach checks & phone intelligence
+

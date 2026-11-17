@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "<stdin>", line 3, in <module>
+  File "/home/adhi/tracekit/venv/lib/python3.14/site-packages/phonenumbers/phonenumberutil.py", line 2957, in parse
+    raise NumberParseException(NumberParseException.NOT_A_NUMBER,
+                               "The string supplied did not seem to be a phone number.")
+phonenumbers.phonenumberutil.NumberParseException: (1) The string supplied did not seem to be a phone number.

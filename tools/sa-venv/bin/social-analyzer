@@ -1,0 +1,5 @@
+#!/home/adhi/osint-phone-lab/tools/sa-venv/bin/python3
+from importlib import import_module
+if __name__ == '__main__':
+	module = import_module("social-analyzer")
+	module.main_logic()

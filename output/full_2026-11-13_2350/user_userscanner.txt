@@ -1,0 +1,102 @@
+      _   _ ___  ___ _ __      ___  ___ __ _ _ __  _ __   ___ _ __
+     | | | / __|/ _ \ '__|____/ __|/ __/ _` | '_ \| '_ \ / _ \ '__|
+     | |_| \__ \  __/ | |_____\__ \ (_| (_| | | | | | | |  __/ |
+      \__,_|___/\___|_|       |___/\___\__,_|_| |_|_| |_|\___|_| Version: 1.5.2.5
+
+      🌐 Web App: https://user-scanner.app
+
+
+ Checking username: vishnu_w
+
+== CREATIVE SITES ==
+  [✔] Flickr (vishnu_w): Found
+      ├── display_name: vishnu_w
+      ├── fullname: vishnu thatikonda
+      ├── user_id: 10282644@N02
+      ├── path_alias: vishnu_w
+      ├── photos: 13
+      └── avatar: https://combo.staticflickr.com/pw/images/bbuddyicon08_r.png#10282644@N02
+
+== SHOPPING SITES ==
+  [✔] Fiverr (vishnu_w): Found
+
+== SOCIAL SITES ==
+  [✔] Clubhouse (vishnu_w): Found
+      ├── fullname: Vishnu Vichu
+      ├── followers: 9
+      ├── following: 11
+      ├── friends: 3
+      └── avatar: https://d14u0p1qkech25.cloudfront.net/510181677_ae550691-9e74-4f0d-ab7c-bf0ee5978dcf_thumbnail_250x250
+  [✔] X (twitter) (vishnu_w): Found
+  [✔] Instagram (vishnu_w): Found
+      ├── fullname: Vishnu Vardhana
+      ├── follower_count: 46
+      ├── following_count: 106
+      ├── post_count: 7
+      ├── id: 251598381
+      ├── verified: False
+      ├── private: False
+      └── avatar: https://scontent.cdninstagram.com/v/t51.2885-19/11325026_491818634311872_975429969_a.jpg?_nc_cat=108&ig_cache_key=GGLOrADA_P1yTr8BAFHhIzoAAAAAYUULAAAB1501500j-ccb7-5&ccb=7-5&_nc_sid=669407&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xNTAuQzMifQ%3D%3D&_nc_ohc=yh5ipSYMtdkQ7kNvwGcBAiE&_nc_oc=AdrueQf5oBsVeHFxvm-hT-dYs0wGXXYjaWoMGVelHqX0cMxS4hDoBqW9722EH7rgNAQ_vRyujkOE0JO9u7yIXYdj&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_ss=79689&_nc_ct=RQosPBUCFQIAAAA&oh=00_AQREiygUxCBov1C-sdoTMBISSqIPxvOpRYgD-iU2sqAmgw&oe=6AFD3DDD
+
+== GAMING SITES ==
+  [✔] Chess.com (vishnu_w): Found
+      ├── username: vishnu_w
+      ├── status: closed:fair_play_violations
+      ├── league: Bronze
+      ├── country: IN
+      ├── joined: 2024-03-04
+      ├── last_online: 2024-04-09
+      └── avatar: https://images.chesscomfiles.com/uploads/v1/user/348928997.0e39bf0e.200x200o.2d267ac1b965.jpg
+  [✔] Roblox (vishnu_w): Found
+      ├── display_name: HANUTTATU
+      ├── uid: 4719233870
+      ├── is_verified: False
+      ├── created: 2023-06-17T09:11:04.877Z
+      └── avatar: https://t4.rbxcdn.com/30DAY-AvatarHeadshot-B82FF63E26364D9694CAF1971FAAA6B3-Png
+
+== EMAIL SITES ==
+  [✔] Protonmail (vishnu_w): Found
+
+== FINANCE SITES ==
+  [✔] Opensea (vishnu_w): Found
+
+== DEV SITES ==
+  [✔] Hhf (vishnu_w): Found
+      ├── name: Vishnu W
+      ├── trust_level: 2
+      ├── joined: 2016-05-20T09:14:22.000Z
+      └── avatar: https://forum.hhf.technology/user_avatar/forum.hhf.technology/vishnu_w/240/85196_2.png
+  [✔] Leetcode (vishnu_w): Found
+      ├── fullname: vishnu_w
+      ├── ranking: 5000001
+      └── image: https://assets.leetcode.com/users/default_avatar.jpg
+
+== MUSIC SITES ==
+  [✔] Bandlab (vishnu_w): Found
+      ├── id: 4204800e-db19-476e-94a4-1f1591d353cd
+      ├── name: Vishnu Wadnerkar
+      ├── joined: 2021-08-09T03:52:33Z
+      ├── followers: 0
+      ├── following: 0
+      ├── plays: 0
+      ├── bands: 0
+      └── avatar: https://bl-prod-images.azureedge.net/v1.0/users/default/
+
+== LEARNING SITES ==
+  [✔] Endnote (vishnu_w): Found
+      ├── name: vishnu_w
+      ├── trust_level: 1
+      ├── badges: 1
+      ├── joined: 2016-07-13T19:22:41.963Z
+      └── avatar: https://avatars.discourse-cdn.com/v4/letter/v/ea5d25/240.png
+
+
+[i] Scan complete.
+  Total hits: 13
+
+[!] 85 site(s) were unreachable due to regional blocks or rate limits (403/timeout).
+    Tip: Route scans with -P/--proxy-file to get verdicts from blocked sites.
+    Tested provider: https://proxy-seller.com/?partner=A711D0DB08424F5A (use code KAIF15 for 15% off)
+
+🌐 Web platform: https://user-scanner.app — Advanced email OSINT, data breach checks & phone intelligence
+

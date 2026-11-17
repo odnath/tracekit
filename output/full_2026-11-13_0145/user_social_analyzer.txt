@@ -1,0 +1,3 @@
+Some characters could not be decoded, and were replaced with REPLACEMENT CHARACTER.
+Some characters could not be decoded, and were replaced with REPLACEMENT CHARACTER.
+{"detected": [{"country": "United States", "extracted": "unavailable", "found": 2, "language": "Malayalam", "link": "https://facebook.com/adhi.mn", "metadata": [{"content": "noarchive", "name": "bingbot"}], "rank": 6, "rate": "%100.0", "status": "good", "text": "Facebook", "title": "Facebook", "type": "Computers Electronics and Technology > Social Networks and Online Communities"}]}

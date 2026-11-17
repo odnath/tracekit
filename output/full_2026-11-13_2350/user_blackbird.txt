@@ -1,0 +1,40 @@
+
+    ▄▄▄▄    ██▓    ▄▄▄       ▄████▄   ██ ▄█▀ ▄▄▄▄    ██▓ ██▀███  ▓█████▄ 
+    ▓█████▄ ▓██▒   ▒████▄    ▒██▀ ▀█   ██▄█▒ ▓█████▄ ▓██▒▓██ ▒ ██▒▒██▀ ██▌
+    ▒██▒ ▄██▒██░   ▒██  ▀█▄  ▒▓█    ▄ ▓███▄░ ▒██▒ ▄██▒██▒▓██ ░▄█ ▒░██   █▌
+    ▒██░█▀  ▒██░   ░██▄▄▄▄██ ▒▓▓▄ ▄██▒▓██ █▄ ▒██░█▀  ░██░▒██▀▀█▄  ░▓█▄   ▌
+    ░▓█  ▀█▓░██████▒▓█   ▓██▒▒ ▓███▀ ░▒██▒ █▄░▓█  ▀█▓░██░░██▓ ▒██▒░▒████▓ 
+    ░▒▓███▀▒░ ▒░▓  ░▒▒   ▓▒█░░ ░▒ ▒  ░▒ ▒▒ ▓▒░▒▓███▀▒░▓  ░ ▒▓ ░▒▓░ ▒▒▓  ▒ 
+    ▒░▒   ░ ░ ░ ▒  ░ ▒   ▒▒ ░  ░  ▒   ░ ░▒ ▒░▒░▒   ░  ▒ ░  ░▒ ░ ▒░ ░ ▒  ▒ 
+    ░    ░   ░ ░    ░   ▒   ░        ░ ░░ ░  ░    ░  ▒ ░  ░░   ░  ░ ░  ░ 
+    ░          ░  ░     ░  ░░ ░      ░  ░    ░       ░     ░        ░    
+        ░                  ░                     ░               ░      
+
+    
+             No VPN? Brave. | by Lucas Antoniaci
+🔄 Checking for updates...
+✔️  Sites List is up to date
+  ✔️  [Internet Archive User Contribution Search] 
+https://archive.org/advancedsearch.php?q=creator:vishnu_w&output=json
+  ✔️  [Internet Archive Username Mentions] 
+https://archive.org/advancedsearch.php?q=vishnu_w&output=json
+  ✔️  [Roblox] 
+https://auth.roblox.com/v1/usernames/validate?username=vishnu_w&birthday=2019-12
+-31T23:00:00.000Z
+  ✔️  [LeetCode] https://leetcode.com/graphql/
+  ✔️  [Scribd (Document)] 
+https://www.scribd.com/search/query?query=vishnu_w&verbatim=true
+  ✔️  [MapMyTracks] https://www.mapmytracks.com/vishnu_w
+  ✔️  [X] https://api.x.com/i/users/username_available.json?username=vishnu_w
+  ✔️  [Chess.com] https://api.chess.com/pub/player/vishnu_w
+  ✔️  [StackOverflow] 
+https://api.stackexchange.com/2.3/users?order=desc&sort=name&inname=vishnu_w&sit
+e=stackoverflow
+  ✔️  [Bandlab] https://www.bandlab.com/api/v1.3/users/vishnu_w
+  ✔️  [Clubhouse] https://www.clubhouse.com/@vishnu_w
+  ✔️  [Znanija] 
+https://znanija.com/graphql/ru?operationName=NickAvailability&query=query%20Nick
+Availability%28%24nick%3AString%21%29%7BnickAvailability%28nick%3A%24nick%29%7Bi
+sAvailable%7D%7D&variables=%7B%22nick%22%3A%22vishnu_w%22%7D
+  ✔️  [Instagram] https://www.instagram.com/vishnu_w/
+🛰️  Enumerating accounts with username "vishnu_w" — 100% (691/691)🏁 Check completed in 73.4 seconds

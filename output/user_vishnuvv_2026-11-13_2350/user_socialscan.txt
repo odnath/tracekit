@@ -1,0 +1,12 @@
+  0%|                                | 0/8 [0.00s] 38%|████████████                    | 3/8 [0.87s] 62%|████████████████████            | 5/8 [1.04s] 75%|████████████████████████        | 6/8 [1.20s] 88%|████████████████████████████    | 7/8 [1.31s]100%|████████████████████████████████| 8/8 [3.19s]                                                  ----------------------------------------
+                vishnuvv
+----------------------------------------
+GitLab
+Tumblr
+Twitter
+GitHub: QueryError - Could not retrieve token. You might be sending too many requests. Use a proxy or wait before trying again.
+Instagram: QueryError - Could not retrieve token. You might be sending too many requests. Use a proxy or wait before trying again.
+Reddit: QueryError - Unexpected content type text/html. You might be sending too many requests. Use a proxy or wait before trying again.
+
+Available, Taken/Reserved, Invalid, Error
+Completed 8 queries in 3.20s

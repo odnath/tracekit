@@ -1,0 +1,80 @@
+[32m[+] [36mImporting Modules...[0m
+[32m
+__   _ _____ _     _ _____ _____ _
+| \  | |____  \___/  |____   |   |
+|  \_| |____ _/   \_ |     __|__ |_____[0m
+
+[32m[>] [36m[36mCreated By   : [0mthewhiteh4t[0m
+[32m[36m |---> Twitter   : [0mhttps://twitter.com/thewhiteh4t[0m
+[32m[36m |---> Community : [0mhttps://twc1rcle.com/[0m
+[32m[>] [36m[36mVersion      : [0m1.0.6[0m
+
+[33m[!] [36mLoading URLs...[0m
+[32m[+] [36m328 URLs Loaded![0m
+[32m[+] [36m[36mTimeout : [0m10 secs[0m
+[32m[+] [36m[36mTarget : [0mvishnu_w[0m
+
+[33m[!] [36mFinding Profiles...[0m
+
+[33m[!] [36mInitializing Chrome Driver...[0m
+[31m[-] [36mundetected_chromedriver not found![0m
+[33m[!] [36mSome websites will be skipped![0m
+
+[32m[>] [36mProgress : [0m1[32m[>] [36mProgress : [0m2[32m[>] [36mProgress : [0m3[32m[>] [36mProgress : [0m4[32m[>] [36mProgress : [0m5[32m[>] [36mProgress : [0m6[32m[>] [36mProgress : [0m7[32m[>] [36mProgress : [0m8[32m[>] [36mProgress : [0m9[32m[>] [36mProgress : [0m10[32m[>] [36mProgress : [0m11[32m[>] [36mProgress : [0m12[32m[>] [36mProgress : [0m13[32m[>] [36mProgress : [0m14[32m[>] [36mProgress : [0m15[32m[>] [36mProgress : [0m16https://[33mf3.cool[0m/vishnu_w/
+[32m[>] [36mProgress : [0m17[32m[>] [36mProgress : [0m18[32m[>] [36mProgress : [0m19[32m[>] [36mProgress : [0m20[32m[>] [36mProgress : [0m21[32m[>] [36mProgress : [0m22[32m[>] [36mProgress : [0m23[32m[>] [36mProgress : [0m24[32m[>] [36mProgress : [0m25[32m[>] [36mProgress : [0m26[32m[>] [36mProgress : [0m27[32m[>] [36mProgress : [0m28[32m[>] [36mProgress : [0m29https://www.[33mchess.com[0m/member/vishnu_w
+[32m[>] [36mProgress : [0m30[32m[>] [36mProgress : [0m31[32m[>] [36mProgress : [0m32[32m[>] [36mProgress : [0m33[32m[>] [36mProgress : [0m34[32m[>] [36mProgress : [0m35[32m[>] [36mProgress : [0m36[32m[>] [36mProgress : [0m37https://[33mgiphy.com[0m/explore/vishnu_w
+[32m[>] [36mProgress : [0m38[32m[>] [36mProgress : [0m39[32m[>] [36mProgress : [0m40[32m[>] [36mProgress : [0m41[32m[>] [36mProgress : [0m42[32m[>] [36mProgress : [0m43[32m[>] [36mProgress : [0m44[32m[>] [36mProgress : [0m45[32m[>] [36mProgress : [0m46[32m[>] [36mProgress : [0m47https://[33marchiveofourown.org[0m/users/vishnu_w
+[32m[>] [36mProgress : [0m48[32m[>] [36mProgress : [0m49[32m[>] [36mProgress : [0m50https://[33marchive.org[0m/details/@vishnu_w
+[32m[>] [36mProgress : [0m51[32m[>] [36mProgress : [0m52[32m[>] [36mProgress : [0m53[32m[>] [36mProgress : [0m54[32m[>] [36mProgress : [0m55[32m[>] [36mProgress : [0m56[32m[>] [36mProgress : [0m57[32m[>] [36mProgress : [0m58[32m[>] [36mProgress : [0m59https://www.[33mflickr.com[0m/people/vishnu_w
+[32m[>] [36mProgress : [0m60[32m[>] [36mProgress : [0m61https://freelance.[33mhabr.com[0m/freelancers/vishnu_w
+[32m[>] [36mProgress : [0m62[32m[>] [36mProgress : [0m63[32m[>] [36mProgress : [0m64[32m[>] [36mProgress : [0m65[32m[>] [36mProgress : [0m66[32m[>] [36mProgress : [0m67https://www.[33malik.cz[0m/u/vishnu_w
+[32m[>] [36mProgress : [0m68[32m[>] [36mProgress : [0m69[32m[>] [36mProgress : [0m70[32m[>] [36mProgress : [0m71[32m[>] [36mProgress : [0m72[32m[>] [36mProgress : [0m73[32m[>] [36mProgress : [0m74[32m[>] [36mProgress : [0m75https://www.[33mchampionat.com[0m/user/vishnu_w/
+[32m[>] [36mProgress : [0m76[32m[>] [36mProgress : [0m77https://www.[33msmule.com[0m/vishnu_w
+[32m[>] [36mProgress : [0m78[32m[>] [36mProgress : [0m79[32m[>] [36mProgress : [0m80[32m[>] [36mProgress : [0m81[32m[>] [36mProgress : [0m82https://www.[33mbabyblog.ru[0m/user/info/vishnu_w
+[32m[>] [36mProgress : [0m83https://m.[33mtwitch.tv[0m/vishnu_w
+[32m[>] [36mProgress : [0m84[32m[>] [36mProgress : [0m85[32m[>] [36mProgress : [0m86[32m[>] [36mProgress : [0m87[32m[>] [36mProgress : [0m88[32m[>] [36mProgress : [0m89[32m[>] [36mProgress : [0m90[32m[>] [36mProgress : [0m91https://www.[33mfreelancer.com[0m/signup?next=/u/vishnu_w
+[32m[>] [36mProgress : [0m92https://[33mcodeforces.com[0m/profile/vishnu_w
+[32m[>] [36mProgress : [0m93[32m[>] [36mProgress : [0m94[32m[>] [36mProgress : [0m95[32m[>] [36mProgress : [0m96[32m[>] [36mProgress : [0m97[32m[>] [36mProgress : [0m98[32m[>] [36mProgress : [0m99[32m[>] [36mProgress : [0m100[32m[>] [36mProgress : [0m101[32m[>] [36mProgress : [0m102https://[33mhubski.com[0m/user/vishnu_w
+[32m[>] [36mProgress : [0m103[32m[>] [36mProgress : [0m104[32m[>] [36mProgress : [0m105[32m[>] [36mProgress : [0m106[32m[>] [36mProgress : [0m107[32m[>] [36mProgress : [0m108[32m[>] [36mProgress : [0m109[32m[>] [36mProgress : [0m110[32m[>] [36mProgress : [0m111[32m[>] [36mProgress : [0m112[32m[>] [36mProgress : [0m113[32m[>] [36mProgress : [0m114https://www.[33mliinks.co[0m/vishnu_w
+[32m[>] [36mProgress : [0m115[32m[>] [36mProgress : [0m116[32m[>] [36mProgress : [0m117[32m[>] [36mProgress : [0m118https://www.[33mmunzee.com[0m/m/vishnu_w
+[32m[>] [36mProgress : [0m119[32m[>] [36mProgress : [0m120[32m[>] [36mProgress : [0m121https://www.[33mbaby.ru[0m/u/vishnu_w/
+[32m[>] [36mProgress : [0m122[32m[>] [36mProgress : [0m123[32m[>] [36mProgress : [0m124[32m[>] [36mProgress : [0m125[32m[>] [36mProgress : [0m126[32m[>] [36mProgress : [0m127[32m[>] [36mProgress : [0m128[32m[>] [36mProgress : [0m129https://[33mlemmygrad.ml[0m/u/vishnu_w
+[32m[>] [36mProgress : [0m130[32m[>] [36mProgress : [0m131https://shop.[33mbodybuilding.com[0m/pages/bbcom-membership
+[32m[>] [36mProgress : [0m132[32m[>] [36mProgress : [0m133[32m[>] [36mProgress : [0m134[32m[>] [36mProgress : [0m135[32m[>] [36mProgress : [0m136[32m[>] [36mProgress : [0m137[32m[>] [36mProgress : [0m138[32m[>] [36mProgress : [0m139[32m[>] [36mProgress : [0m140[32m[>] [36mProgress : [0m141[32m[>] [36mProgress : [0m142[32m[>] [36mProgress : [0m143[32m[>] [36mProgress : [0m144[32m[>] [36mProgress : [0m145[32m[>] [36mProgress : [0m146[32m[>] [36mProgress : [0m147[32m[>] [36mProgress : [0m148[32m[>] [36mProgress : [0m149[32m[>] [36mProgress : [0m150[32m[>] [36mProgress : [0m151[32m[>] [36mProgress : [0m152[32m[>] [36mProgress : [0m153[32m[>] [36mProgress : [0m154[32m[>] [36mProgress : [0m155[32m[>] [36mProgress : [0m156[32m[>] [36mProgress : [0m157[32m[>] [36mProgress : [0m158[32m[>] [36mProgress : [0m159[32m[>] [36mProgress : [0m160[32m[>] [36mProgress : [0m161[32m[>] [36mProgress : [0m162[32m[>] [36mProgress : [0m163https://[33mbaraza.africa[0m/u/vishnu_w
+[32m[>] [36mProgress : [0m164[32m[>] [36mProgress : [0m165[32m[>] [36mProgress : [0m166[32m[>] [36mProgress : [0m167[32m[>] [36mProgress : [0m168[32m[>] [36mProgress : [0m169[32m[>] [36mProgress : [0m170[32m[>] [36mProgress : [0m171[32m[>] [36mProgress : [0m172https://[33mt.me[0m/vishnu_w
+[32m[>] [36mProgress : [0m173https://www.[33mslideshare.net[0m/vishnu_w
+[32m[>] [36mProgress : [0m174[32m[>] [36mProgress : [0m175https://vishnu_w.[33mwordpress.com[0m/
+[32m[>] [36mProgress : [0m176https://[33mrive.app[0m/
+[32m[>] [36mProgress : [0m177[32m[>] [36mProgress : [0m178[32m[>] [36mProgress : [0m179[32m[>] [36mProgress : [0m180[32m[>] [36mProgress : [0m181https://lemmy.[33mglasgow.social[0m/u/vishnu_w
+[32m[>] [36mProgress : [0m182[32m[>] [36mProgress : [0m183[32m[>] [36mProgress : [0m184[32m[>] [36mProgress : [0m185[32m[>] [36mProgress : [0m186https://[33mimgsrc.ru[0m/main/user.php?user=vishnu_w
+[32m[>] [36mProgress : [0m187https://www.[33mmercadolivre.com.br[0m/perfil/vishnu_w
+[32m[>] [36mProgress : [0m188[32m[>] [36mProgress : [0m189[32m[>] [36mProgress : [0m190https://social.[33mtchncs.de[0m/@vishnu_w
+[32m[>] [36mProgress : [0m191[32m[>] [36mProgress : [0m192https://[33mpixelhub.me[0m/pixelhub1/index.php?user=vishnu_w
+[32m[>] [36mProgress : [0m193[32m[>] [36mProgress : [0m194[32m[>] [36mProgress : [0m195[32m[>] [36mProgress : [0m196[32m[>] [36mProgress : [0m197[32m[>] [36mProgress : [0m198[32m[>] [36mProgress : [0m199[32m[>] [36mProgress : [0m200https://[33mlolchess.gg[0m/profile/na/vishnu_w
+[32m[>] [36mProgress : [0m201[32m[>] [36mProgress : [0m202[32m[>] [36mProgress : [0m203[32m[>] [36mProgress : [0m204[32m[>] [36mProgress : [0m205[32m[>] [36mProgress : [0m206[32m[>] [36mProgress : [0m207https://[33micq.im[0m/vishnu_w
+[32m[>] [36mProgress : [0m208[32m[>] [36mProgress : [0m209[32m[>] [36mProgress : [0m210[32m[>] [36mProgress : [0m211[32m[>] [36mProgress : [0m212[32m[>] [36mProgress : [0m213[32m[>] [36mProgress : [0m214[32m[>] [36mProgress : [0m215[32m[>] [36mProgress : [0m216https://[33mlemmy.eus[0m/u/vishnu_w
+[32m[>] [36mProgress : [0m217https://www.[33mjeuxvideo.com[0m/profil/vishnu_w?mode=infos
+[32m[>] [36mProgress : [0m218https://www.[33mstrava.com[0m/athletes/vishnu_w
+[32m[>] [36mProgress : [0m219[32m[>] [36mProgress : [0m220[32m[>] [36mProgress : [0m221[32m[>] [36mProgress : [0m222[32m[>] [36mProgress : [0m223https://www.[33mquora.com[0m/vishnu_w
+[32m[>] [36mProgress : [0m224https://discussions.[33mapple.com[0m/verify-human/verify.html?next=/profile/vishnu_w
+[32m[>] [36mProgress : [0m225[32m[>] [36mProgress : [0m226https://[33mpsnprofiles.com[0m/vishnu_w
+[32m[>] [36mProgress : [0m227[32m[>] [36mProgress : [0m228[32m[>] [36mProgress : [0m229[32m[>] [36mProgress : [0m230[32m[>] [36mProgress : [0m231[32m[>] [36mProgress : [0m232https://www.[33mopennet.ru[0m/~vishnu_w
+[32m[>] [36mProgress : [0m233[32m[>] [36mProgress : [0m234[32m[>] [36mProgress : [0m235https://www.[33mgunsandammo.com[0m
+[32m[>] [36mProgress : [0m236[32m[>] [36mProgress : [0m237[32m[>] [36mProgress : [0m238[32m[>] [36mProgress : [0m239[32m[>] [36mProgress : [0m240[32m[>] [36mProgress : [0m241[32m[>] [36mProgress : [0m242[32m[>] [36mProgress : [0m243https://[33mpypi.org[0m/user/vishnu_w
+[32m[>] [36mProgress : [0m244[32m[>] [36mProgress : [0m245[32m[>] [36mProgress : [0m246[32m[>] [36mProgress : [0m247[32m[>] [36mProgress : [0m248[32m[>] [36mProgress : [0m249[32m[>] [36mProgress : [0m250[32m[>] [36mProgress : [0m251[32m[>] [36mProgress : [0m252[32m[>] [36mProgress : [0m253[32m[>] [36mProgress : [0m254[32m[>] [36mProgress : [0m255[32m[>] [36mProgress : [0m256[32m[>] [36mProgress : [0m257[32m[>] [36mProgress : [0m258[32m[>] [36mProgress : [0m259[32m[>] [36mProgress : [0m260[32m[>] [36mProgress : [0m261[32m[>] [36mProgress : [0m262[32m[>] [36mProgress : [0m263[32m[>] [36mProgress : [0m264[32m[>] [36mProgress : [0m265[32m[>] [36mProgress : [0m266[32m[>] [36mProgress : [0m267[32m[>] [36mProgress : [0m268[32m[>] [36mProgress : [0m269[32m[>] [36mProgress : [0m270[32m[>] [36mProgress : [0m271https://[33mhashnode.com[0m/@vishnu_w
+[32m[>] [36mProgress : [0m272[32m[>] [36mProgress : [0m273[32m[>] [36mProgress : [0m274[32m[>] [36mProgress : [0m275[32m[>] [36mProgress : [0m276[32m[>] [36mProgress : [0m277[32m[>] [36mProgress : [0m278[32m[>] [36mProgress : [0m279[32m[>] [36mProgress : [0m280https://old.[33mreddit.com[0m/login/?reason=lor2&dest=https://old.[33mreddit.com[0m/user/vishnu_w
+[32m[>] [36mProgress : [0m281[32m[>] [36mProgress : [0m282[32m[>] [36mProgress : [0m283[32m[>] [36mProgress : [0m284[32m[>] [36mProgress : [0m285[32m[>] [36mProgress : [0m286https://forum.[33mvelomania.ru[0m/member.php?username=vishnu_w
+[32m[>] [36mProgress : [0m287https://[33mcontently.com[0m/
+[32m[>] [36mProgress : [0m288[32m[>] [36mProgress : [0m289[32m[>] [36mProgress : [0m290[32m[>] [36mProgress : [0m291[32m[>] [36mProgress : [0m292[32m[>] [36mProgress : [0m293[32m[>] [36mProgress : [0m294[32m[>] [36mProgress : [0m295[32m[>] [36mProgress : [0m296[32m[>] [36mProgress : [0m297[32m[>] [36mProgress : [0m298[32m[>] [36mProgress : [0m299[32m[>] [36mProgress : [0m300[32m[>] [36mProgress : [0m301[32m[>] [36mProgress : [0m302https://[33mlite.link[0m
+[32m[>] [36mProgress : [0m303https://[33mok.ru[0m/vishnu_w
+[32m[>] [36mProgress : [0m304https://www.[33mbitchute.com[0m/channel/vishnu_w/
+[32m[>] [36mProgress : [0m305[32m[>] [36mProgress : [0m306[32m[>] [36mProgress : [0m307[32m[>] [36mProgress : [0m308[32m[>] [36mProgress : [0m309[32m[>] [36mProgress : [0m310[32m[>] [36mProgress : [0m311[32m[>] [36mProgress : [0m312https://www.[33mscribd.com[0m/user/6680592/vishnu-w
+[32m[>] [36mProgress : [0m313[32m[>] [36mProgress : [0m314[32m[>] [36mProgress : [0m315[32m[>] [36mProgress : [0m316[32m[>] [36mProgress : [0m317[32m[>] [36mProgress : [0m318[32m[>] [36mProgress : [0m319[32m[>] [36mProgress : [0m320[32m[>] [36mProgress : [0m321[32m[>] [36mProgress : [0m322[32m[>] [36mProgress : [0m323[32m[>] [36mProgress : [0m324[32m[>] [36mProgress : [0m325https://[33mlemmy.ml[0m/u/vishnu_w
+[32m[>] [36mProgress : [0m326[32m[>] [36mProgress : [0m327[32m[>] [36mProgress : [0m328
+
+[32m[>] [36m[36mCompleted In         : [0m00 Hours 00 Minutes 22 Seconds[0m
+[32m[>] [36m[36mTotal Profiles Found : [0m50[0m
+[32m[>] [36m[36mTotal Timeouts       : [0m2[0m
+[32m[>] [36m[36mTotal Exceptions     : [0m57[0m
+
+[32m[+] [36m[36mSaved : [0m/home/adhi/.local/share/nexfil/dumps/vishnu_w_1794595072.txt[0m

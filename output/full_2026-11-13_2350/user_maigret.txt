@@ -1,0 +1,239 @@
+[+] MAIGRET - collect a dossier by username from 3000+ sites
+[♥] Support Maigret — sites database & development
+[♥] Donate on Patreon: https://www.patreon.com/soxoj
+[+] Using sites database: /home/adhi/.local/share/pipx/venvs/maigret/lib/python3.14/site-packages/maigret/resources/data.json (5897 sites)
+[-] Starting a search on top 509 sites from the Maigret database...
+[!] You can run search by full list of sites with flag `-a`
+[*] Checking username vishnu_w on:
+[?] StackOverflow: https://stackoverflow.com/users/filter?search=vishnu_w
+ ├─uid: 30250518
+ ├─account_id: 41354832
+ ├─username: Vishnuswaroop Sarswat
+ ├─image: https://www.gravatar.com/avatar/e346a73155d2f71b6272b339b31ee5d0?s=256&d=identicon&r=PG&f=y&so-version=2
+ ├─reputation: 1
+ ├─link: https://stackoverflow.com/users/30250518/vishnuswaroop-sarswat
+ ├─created_at: 1744441985
+ ├─gravatar_url: https://gravatar.com/e346a73155d2f71b6272b339b31ee5d0
+ ├─gravatar_username: Vishnuswaroop Sarswat
+ └─gravatar_email_md5_hash: e346a73155d2f71b6272b339b31ee5d0
+[+] Flickr: https://www.flickr.com/photos/vishnu_w
+[+] Fiverr: https://www.fiverr.com/vishnu_w
+[+] DeviantART: https://vishnu_w.deviantart.com
+ ├─country: India
+ ├─created_at: 2022-12-08 05:45:53 UTC
+ ├─gender: other
+ ├─username: vishnuw
+ └─tagline: K Vishnu Varadhan
+[+] LeetCode: https://leetcode.com/u/vishnu_w/
+ ├─username: vishnu_w
+ ├─fullname: vishnu_w
+ ├─image: https://assets.leetcode.com/users/default_avatar.jpg
+ └─ranking: 5000001
+[+] Chess: https://www.chess.com/member/vishnu_w
+ ├─chess_user_id: 348928997
+ ├─username: vishnu_w
+ ├─image: https://images.chesscomfiles.com/uploads/v1/user/348928997.0e39bf0e.200x200o.2d267ac1b965.jpg
+ ├─country_code: IN
+ ├─follower_count: 0
+ ├─status: closed:fair_play_violations
+ ├─is_streamer: False
+ ├─is_verified: False
+ ├─created_at: 2024-03-04 19:27:24 UTC
+ └─latest_activity_at: 2024-04-09 15:50:09 UTC
+[+] OpenSea: https://opensea.io/vishnu_w
+[+] Clubhouse: https://www.clubhouse.com/@vishnu_w
+[+] Smule: https://www.smule.com/vishnu_w
+[+] FilmWeb: https://www.filmweb.pl/user/vishnu_w
+[+] Topmate: https://topmate.io/vishnu_w
+[!] Too many errors of type "Bot protection" (13.16%). Try to switch to another ip address
+[-] You can see detailed site check errors with a flag `--print-errors`
+[-] Extracted IDs: {'vishnuw': 'username', 'vishnu_w': 'username'}
+[-] TXT report for vishnu_w saved in /home/adhi/tracekit/output/full_2026-11-13_2350/maigret/report_vishnu_w.txt
+[*] Checking username vishnuw on:
+[+] Trello: https://trello.com/vishnuw
+ ├─id: 65e8bf90d52c891f4cd9ad47
+ ├─username: vishnuw
+ ├─fullname: Vishnu Warrier
+ ├─image: https://trello-members.s3.amazonaws.com/65e8bf90d52c891f4cd9ad47/5937b80b88b797afdd2f45c912c89980/170.png
+ ├─type: normal
+ └─is_verified: True
+[+] Twitter: https://twitter.com/vishnuw
+ ├─uid: VXNlcjo3NTc5MzQ2Ng==
+ ├─fullname: Vishnu Warrier
+ ├─bio: just an Observer  and Learner 
+Photographer •AI • Cybersecurity  • Data Science & Analytics , OSINT • Geopolitics"
+ ├─created_at: 2009-09-20 14:11:44+00:00
+ ├─image: https://pbs.twimg.com/profile_images/2032816179526643714/yn2LjsMT.jpg
+ ├─image_bg: https://pbs.twimg.com/profile_banners/75793466/1773496121
+ ├─is_protected: False
+ ├─follower_count: 0
+ ├─following_count: 451
+ ├─location:  ∞ 
+ └─favourites_count: 343
+[+] Discord: https://discord.com
+[+] GitHub: https://github.com/vishnuw
+ ├─uid: 109515291
+ ├─image: https://avatars.githubusercontent.com/u/109515291?v=4
+ ├─created_at: 2022-07-18T09:17:47Z
+ ├─follower_count: 1
+ ├─following_count: 1
+ ├─public_gists_count: 0
+ └─public_repos_count: 4
+[+] Telegram: https://t.me/vishnuw
+ └─fullname: Vishnu Wadhwani
+[+] Facebook: https://www.facebook.com/vishnuw
+ ├─uid: 100001878803695
+ ├─username: vishnuw
+ ├─fullname: Vishnu Wakte
+ ├─description: Vishnu Wakte Facebook-ൽ ഉണ്ട്. Vishnu Wakte എന്നയാളുമായും നിങ്ങൾക്ക് പരിചയമുള്ള മറ്റുള്ളവരുമായും കണക്‌റ്റുചെയ്യുന്നതിന് Facebook-ൽ ചേരുക. Facebook, പങ്കിടുന്നതിനുള്ള അവസരം ആളുകൾക്ക് നൽകി ലോകം കൂടുതൽ...
+ └─image: https://scontent.fcjb3-2.fna.fbcdn.net/v/t39.30808-1/547273070_31251840314461854_917528915685723635_n.jpg?stp=dst-jpg_tt6&cstp=mx118x40&ctp=s118x40&_nc_cat=102&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=zZmROaLhqOsQ7kNvwEMjhwI&_nc_oc=AdqcVXmGQWz5j6Tz8IxvA1MTDpuq-Hsq-pFiYTWQiLZd7nmVjCR1RssofAbMO9zPXpMKtkDpxOy_B1jGk-VvpQmd&_nc_zt=24&_nc_ht=scontent.fcjb3-2.fna&_nc_gid=LHpOnra2cTFwxnLMegq4wg&_nc_ss=7020f&oh=00_AQSmOcY-GLQt8YnRQ3LX47qnlq2DwUD8saZdvzzkBtKwcQ&oe=6AFD3ABE
+[+] YouTube: https://www.youtube.com/@vishnuw/about
+ ├─youtube_channel_id: UCzyR2sHTBynsgumF4uEg9eQ
+ ├─fullname: Vishnu W
+ ├─image: https://yt3.googleusercontent.com/1sFoIjWMmWKa5mg3vjfFXr2Cxrc16wu_-6qXIVw-Bizy3YwssmS7DC_PboXxdfn73qU6oCNa3Q=s900-c-k-c0x00ffffff-no-rj
+ ├─channel_url: http://www.youtube.com/@VishnuW
+ └─is_family_safe: True
+[+] HuggingFace: https://huggingface.co/vishnuw
+[+] Instructables: https://www.instructables.com/member/vishnuw
+[+] WordPress: https://vishnuw.wordpress.com/
+[+] Fiverr: https://www.fiverr.com/vishnuw
+[+] Paypal: https://www.paypal.com/paypalme/vishnuw
+[+] DeviantART: https://vishnuw.deviantart.com
+ ├─country: India
+ ├─created_at: 2022-12-08 05:45:52 UTC
+ ├─gender: other
+ ├─username: vishnuw
+ └─tagline: K Vishnu Varadhan
+[+] Duolingo: https://www.duolingo.com/profile/vishnuw
+[+] Medium: https://medium.com/@vishnuw
+ ├─fullname: Vishnuw
+ ├─username: vishnuw
+ ├─image: https://cdn-images-1.medium.com/fit/c/150/150/0*allX4TZa5-fzRcFo
+ └─latest_activity_at: 2026-11-13 18:34:16 UTC
+[+] Bluesky: https://bsky.app/profile/vishnuw.bsky.social
+ ├─uid: did:plc:5naju25f2cypxyp7d2lvbsdp
+ ├─username: vishnuw
+ ├─fullname: vishnuw.bsky.social
+ ├─image: https://cdn.bsky.app/img/avatar/plain/did:plc:5naju25f2cypxyp7d2lvbsdp/bafkreieizfydkuamajvfbku5pa4rt4xfti2naxmb2s24mdznydyfvj2bgm
+ ├─created_at: 2026-02-26T11:22:32.751Z
+ ├─follower_count: 0
+ ├─following_count: 2
+ └─posts_count: 0
+[+] Blogger: https://vishnuw.blogspot.com
+ ├─blog_id: 1837159071173844453
+ └─uid: 15155970210233182265
+[?] StackOverflow: https://stackoverflow.com/users/filter?search=vishnuw
+ ├─uid: 30782430
+ ├─account_id: 42498510
+ ├─username: Vishnuways1
+ ├─image: https://www.gravatar.com/avatar/6e30b89810262e56d43e512cf7a23ce0?s=256&d=identicon&r=PG&f=y&so-version=2
+ ├─reputation: 1
+ ├─link: https://stackoverflow.com/users/30782430/vishnuways1
+ ├─created_at: 1749703906
+ ├─gravatar_url: https://gravatar.com/6e30b89810262e56d43e512cf7a23ce0
+ ├─gravatar_username: Vishnuways1
+ └─gravatar_email_md5_hash: 6e30b89810262e56d43e512cf7a23ce0
+[+] DailyMotion: https://www.dailymotion.com/vishnuw
+ ├─uid: x2irnjq
+ ├─username: vishnuw
+ ├─fullname: Lucifer
+ ├─image: https://s2.dmcdn.net/d/5000002HraHpp/720x720
+ ├─follower_count: 0
+ ├─following_count: 2
+ ├─videos_count: 0
+ ├─country: IN
+ ├─created_at: 2021-06-16 14:54:02 UTC
+ └─is_verified: False
+[+] OpenSea: https://opensea.io/vishnuw
+[+] ImageShack: https://imageshack.com/user/vishnuw
+[+] Freelancer.com: https://www.freelancer.com/api/users/0.1/users?usernames%5B%5D=vishnuw&compact=true
+ ├─id: 9830972
+ ├─nickname: vishnuw
+ ├─username: vishnuw
+ ├─fullname: vishnuw
+ ├─role: freelancer
+ └─created_at: 2014-01-14 16:29:10 UTC
+[+] Chess: https://www.chess.com/member/vishnuw
+ ├─chess_user_id: 5436255
+ ├─username: vishnuw
+ ├─country_code: CA
+ ├─follower_count: 0
+ ├─status: basic
+ ├─is_streamer: False
+ ├─is_verified: False
+ ├─created_at: 2011-07-14 02:49:26 UTC
+ └─latest_activity_at: 2011-07-16 21:14:00 UTC
+[+] Wattpad: https://www.wattpad.com/user/vishnuw
+[+] AnimeNewsNetwork: https://www.animenewsnetwork.com/bbs/phpBB2/profile.php?mode=viewprofile&u=vishnuw
+[+] TripAdvisor: https://tripadvisor.com/members/vishnuw
+[+] Myspace: https://myspace.com/vishnuw
+ ├─uid: 56332733
+ └─username: vishnuw
+[+] Kick: https://kick.com/vishnuw
+[+] Picsart: https://picsart.com/u/vishnuw
+ ├─picsart_id: 349173596079101
+ ├─picsart_username: vishnuw
+ ├─fullname: VisHnu Šwžž
+ ├─image: https://graph.facebook.com/787010911393951/picture?type=normal
+ ├─follower_count: 0
+ ├─following_count: 1
+ ├─likes_count: 0
+ ├─photos_count: 0
+ ├─is_verified: False
+ └─facebook_uid: 787010911393951
+[+] Kongregate: https://www.kongregate.com/accounts/vishnuw
+[+] BuzzFeed: https://buzzfeed.com/vishnuw
+ ├─uuid: a51f7097-6110-4327-a5ef-869cfdc4d78d
+ ├─id: 4414253
+ ├─fullname: vishnuw
+ ├─username: vishnuw
+ ├─posts_count: 0
+ ├─created_at: 2016-02-25 04:43:39 UTC
+ ├─is_community_user: True
+ ├─is_deleted: False
+ ├─social_links: 
+ │ └─ https://www.facebook.com/app_scoped_user_id/999132750107265/
+ └─image: https://img.buzzfeed.com/buzzfeed-static/static/2016-02/25/4/user_images/webdr15/vishnuw-v2-2091-1456393420-1_200.jpg
+[+] Clubhouse: https://www.clubhouse.com/@vishnuw
+[+] VSCO: https://vsco.co/vishnuw
+[+] FilmWeb: https://www.filmweb.pl/user/vishnuw
+[+] Smule: https://www.smule.com/vishnuw
+[+] Revolut.me: https://revolut.me/vishnuw
+ └─fullname: Vishnu W
+[+] GitHubGist [GitHub]: https://gist.github.com/vishnuw
+[!] Too many errors of type "Bot protection" (13.36%). Try to switch to another ip address
+[-] You can see detailed site check errors with a flag `--print-errors`
+[-] Extracted IDs: {'vishnuw': 'username', 'Vishnuways1': 'username'}
+[-] TXT report for vishnuw saved in /home/adhi/tracekit/output/full_2026-11-13_2350/maigret/report_vishnuw.txt
+[*] Checking username Vishnuways1 on:
+[+] YouTube: https://www.youtube.com/@Vishnuways1/about
+ ├─youtube_channel_id: UCYeaxggOTQWkVvIHhOjPnow
+ ├─fullname: Vishnuways1
+ ├─image: https://yt3.googleusercontent.com/ytc/AIdro_llJuxDZKGdOG-IKGElRS3wSCJ50XUBXsrd6I3_2Aevb1KEal-nCZbghiHmWbA_2-sixg=s900-c-k-c0x00ffffff-no-rj
+ ├─channel_url: http://www.youtube.com/@Vishnuways1
+ └─is_family_safe: True
+[?] StackOverflow: https://stackoverflow.com/users/filter?search=Vishnuways1
+ ├─uid: 30782430
+ ├─account_id: 42498510
+ ├─username: Vishnuways1
+ ├─image: https://www.gravatar.com/avatar/6e30b89810262e56d43e512cf7a23ce0?s=256&d=identicon&r=PG&f=y&so-version=2
+ ├─reputation: 1
+ ├─link: https://stackoverflow.com/users/30782430/vishnuways1
+ ├─created_at: 1749703906
+ ├─gravatar_url: https://gravatar.com/6e30b89810262e56d43e512cf7a23ce0
+ ├─gravatar_username: Vishnuways1
+ └─gravatar_email_md5_hash: 6e30b89810262e56d43e512cf7a23ce0
+[+] OpenSea: https://opensea.io/Vishnuways1
+[+] FilmWeb: https://www.filmweb.pl/user/Vishnuways1
+[!] Too many errors of type "Bot protection" (12.97%). Try to switch to another ip address
+[-] You can see detailed site check errors with a flag `--print-errors`
+[-] Extracted IDs: {'Vishnuways1': 'username'}
+[-] TXT report for Vishnuways1 saved in /home/adhi/tracekit/output/full_2026-11-13_2350/maigret/report_Vishnuways1.txt
+[*] Short text report:
+Search by username vishnu_w returned 10 accounts.
+Found target's other IDs: vishnuw.
+Search by username vishnuw returned 36 accounts.
+Search by username Vishnuways1 returned 3 accounts.
+Extended info extracted from 21 accounts.
+Countries: in, pl
+Interests (tags): social, apps, art, business, photo, gaming, freelance, coding, messaging, streaming, education, tech, forum, hobby, crypto, nft, discussion, networking, music, movies, video, blog, shopping, design, finance, fintech, writing, sharing, news, tasks, llm, reading, anime, review, travel

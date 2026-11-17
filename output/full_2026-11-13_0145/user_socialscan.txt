@@ -1,0 +1,12 @@
+  0%|                                | 0/8 [0.00s] 38%|████████████                    | 3/8 [0.48s] 75%|████████████████████████        | 6/8 [0.67s]100%|████████████████████████████████| 8/8 [3.86s]                                                  ----------------------------------------
+                 adhi.mn
+----------------------------------------
+GitLab
+Tumblr: Invalid blog name
+Twitter: Your username can only contain letters, numbers and '_'
+GitHub: QueryError - Could not retrieve token. You might be sending too many requests. Use a proxy or wait before trying again.
+Instagram: QueryError - Could not retrieve token. You might be sending too many requests. Use a proxy or wait before trying again.
+Reddit: QueryError - Unexpected content type text/html. You might be sending too many requests. Use a proxy or wait before trying again.
+
+Available, Taken/Reserved, Invalid, Error
+Completed 8 queries in 3.87s

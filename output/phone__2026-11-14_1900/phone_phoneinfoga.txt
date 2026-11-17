@@ -1,0 +1,3 @@
+Running scan for phone number ...
+
+given phone number is not valid

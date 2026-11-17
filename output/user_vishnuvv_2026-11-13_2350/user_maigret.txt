@@ -1,0 +1,249 @@
+[*] DB auto-update: checking for updates...
+[*] DB auto-update: downloading database (9345 sites)...
+[!] DB auto-update: SHA-256 mismatch, download rejected
+[!] DB auto-update: download failed, using local database
+[+] MAIGRET - collect a dossier by username from 3000+ sites
+[♥] Support Maigret — sites database & development
+[♥] Donate on Patreon: https://www.patreon.com/soxoj
+[+] Using sites database: /home/adhi/.local/share/pipx/venvs/maigret/lib/python3.14/site-packages/maigret/resources/data.json (5897 sites)
+[-] Starting a search on top 509 sites from the Maigret database...
+[!] You can run search by full list of sites with flag `-a`
+[*] Checking username vishnuvv on:
+[+] ThemeForest: https://themeforest.net/user/vishnuvv
+[+] GitHub: https://github.com/vishnuvv
+ ├─uid: 6205304
+ ├─image: https://avatars.githubusercontent.com/u/6205304?v=4
+ ├─created_at: 2013-12-17T11:26:44Z
+ ├─follower_count: 0
+ ├─following_count: 0
+ ├─public_gists_count: 0
+ └─public_repos_count: 26
+[+] YouTube: https://www.youtube.com/@vishnuvv/about
+[+] Academia.edu: https://independent.academia.edu/vishnuvv
+[+] HuggingFace: https://huggingface.co/vishnuvv
+[+] Facebook: https://www.facebook.com/vishnuvv
+ ├─uid: 100000975202802
+ ├─username: vishnuvv
+ ├─fullname: Vishnu V V Vijayan
+ ├─description: Vishnu V V Vijayan Facebook-ൽ ഉണ്ട്. Vishnu V V Vijayan എന്നയാളുമായും നിങ്ങൾക്ക് പരിചയമുള്ള മറ്റുള്ളവരുമായും കണക്‌റ്റുചെയ്യുന്നതിന് Facebook-ൽ ചേരുക. Facebook, പങ്കിടുന്നതിനുള്ള അവസരം ആളുകൾക്ക് നൽകി...
+ └─image: https://scontent.fcjb3-3.fna.fbcdn.net/v/t39.30808-1/453034438_26086432864305864_4963853751438526497_n.jpg?stp=dst-jpg_tt6&cstp=mx720x576&ctp=s720x576&_nc_cat=106&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=t09EisfZVS8Q7kNvwFxylU6&_nc_oc=AdqtgPo-EsW-OmjLUr4XigVMOo4Pmy9_iYB2KF-MQXm2wY0xp177rMJjhfj1rwe1uc6RQzKV1XTc8hi_6u-xvm2i&_nc_zt=24&_nc_ht=scontent.fcjb3-3.fna&_nc_gid=mTbeRZ0dAja06kF4PgWZWQ&_nc_ss=7020f&oh=00_AQQgMhDoVhV1W8SzNx_7UNcsEiXLDoRzzuG1KDxkysZqjQ&oe=6AFD116D
+[+] Imgur: https://imgur.com/user/vishnuvv
+ ├─id: 40209059
+ ├─imgur_username: vishnuvv
+ ├─reputation_count: 0
+ ├─reputation_name: Neutral
+ ├─image: https://i.imgur.com/I9KZ1p9_d.png?maxwidth=290&fidelity=grand
+ ├─imgur_profile_avatar_url: https://imgur.com/user/vishnuvv/avatar
+ └─created_at: 2016-09-19T09:32:42Z
+[+] Dribbble: https://dribbble.com/vishnuvv
+[+] Pinterest: https://www.pinterest.com/vishnuvv/
+ ├─uid: 395542917181113239
+ ├─username: vishnuvv
+ ├─fullname: VV VISHNU
+ ├─image: https://s.pinimg.com/images/user/default_280.png
+ ├─follower_count: 9
+ ├─following_count: 40
+ ├─posts_count: 157
+ ├─is_private: False
+ ├─is_indexed: True
+ ├─is_partner: False
+ ├─is_verified_merchant: False
+ ├─is_website_verified: False
+ ├─created_at: Thu, 27 Mar 2014 18:57:11 +0000
+ └─latest_activity_at: Mon, 26 Oct 2026 09:40:15 +0000
+[+] Instructables: https://www.instructables.com/member/vishnuvv
+[+] Threads: https://www.threads.com/@vishnuvv
+ ├─fullname: Vichu Vishnu
+ ├─username: vishnuvv
+ ├─follower_count: 169
+ ├─posts_count: 11
+ └─bio: Nothing is permanent
+[+] WordPressOrg: https://profiles.wordpress.org/vishnuvv/
+ ├─fullname: vishnuvv
+ ├─username: vishnuvv
+ ├─image: https://www.gravatar.com/avatar/d59cf5f4a3d136313da57cd3ad5ee0be?s=1024&r=g&d=mm
+ ├─gravatar_url: https://gravatar.com/d59cf5f4a3d136313da57cd3ad5ee0be
+ ├─gravatar_username: vishnuvv
+ └─gravatar_email_md5_hash: d59cf5f4a3d136313da57cd3ad5ee0be
+[+] Fiverr: https://www.fiverr.com/vishnuvv
+[+] Twitter: https://twitter.com/vishnuvv
+ ├─uid: VXNlcjoxMzUxMjAzNjg=
+ ├─fullname: Vishnu Vundavalli
+ ├─created_at: 2010-04-20 11:41:37+00:00
+ ├─image: https://pbs.twimg.com/profile_images/1101855779777323008/6zMbSTt_.jpg
+ ├─is_protected: False
+ ├─follower_count: 7
+ ├─following_count: 31
+ └─favourites_count: 15
+[+] Figma: https://www.figma.com/@vishnuvv
+[+] Paypal: https://www.paypal.com/paypalme/vishnuvv
+[+] DeviantART: https://vishnuvv.deviantart.com
+ ├─country: India
+ ├─created_at: 2020-01-15 18:10:43 UTC
+ ├─gender: other
+ └─username: vishnuvv
+[+] Vimeo: https://vimeo.com/vishnuvv
+[+] TripAdvisor: https://tripadvisor.com/members/vishnuvv
+[+] TradingView: https://www.tradingview.com/u/vishnuvv
+[+] Duolingo: https://www.duolingo.com/profile/vishnuvv
+ ├─uid: 3015965
+ ├─username: vishnuvv
+ ├─fullname: Vishnu Valsalan
+ ├─image: https://simg-ssl.duolingo.com/avatar/default_2
+ ├─created_at: 2013-04-29 05:07:56 UTC
+ ├─url: https://www.duolingo.com/profile/vishnuvv
+ ├─streak: 0
+ ├─totalXp: 12
+ ├─learningLanguage: de
+ └─fromLanguage: en
+[+] Behance: https://www.behance.net/vishnuvv
+ ├─uid: 4489451
+ ├─username: vishnuvv
+ ├─fullname: Vishnu Prasad
+ ├─image: https://pps.services.adobe.com/api/profile/AE117D445361C35F0A490D4D@AdobeID/image/3f3ff75c-afa2-48af-ade7-d180023bfa86/276
+ ├─image_bg: https://mir-s3-cdn-cf.behance.net/7f3310af956370abea823230d3fd508e/8255b26f-8916-478d-89ef-dc7a63a613f8_rwc_0x826x3499x490x3500.jpg?h=3be2078d06d246a7161f4e9738a81909
+ ├─company: Vedic Interiors  00971 557943014
+ ├─location: United Arab Emirates
+ ├─created_at: 2013-12-21 17:50:12 UTC
+ ├─occupation: Interior Designer & 3D Visualizer
+ ├─follower_count: 481
+ ├─following_count: 394
+ ├─views_count: 25915
+ └─appreciations: 931
+[+] Medium: https://medium.com/@vishnuvv
+ ├─fullname: Vishnu V V 
+ ├─username: vishnuvv
+ ├─image: https://cdn-images-1.medium.com/fit/c/150/150/1*dmbNkD5D-u45r44go_cf0g.png
+ └─latest_activity_at: 2026-11-13 18:24:27 UTC
+[+] linktr.ee: https://linktr.ee/vishnuvv
+ ├─id: 142088452
+ ├─username: Vishnuvv
+ ├─is_active: True
+ ├─is_verified: True
+ └─tier: free1
+[+] Substack: https://substack.com/@vishnuvv
+ ├─uid: 537822367
+ ├─username: vishnuvv
+ └─fullname: Vishnu
+[+] Steam: https://steamcommunity.com/id/vishnuvv
+ ├─steam_id: 76561198268957841
+ ├─nickname: VishNorseManiac
+ └─username: vishnuvv
+[+] Discord: https://discord.com
+[+] Weebly: http://vishnuvv.weebly.com/
+[+] Telegram: https://t.me/vishnuvv
+ └─fullname: Vishnu Varadan
+[+] OpenSea: https://opensea.io/vishnuvv
+[+] Launchpad: https://launchpad.net/~vishnuvv
+ ├─fullname: VishnuVardhan V
+ ├─username: vishnuvv
+ ├─languages: English
+ ├─karma: 0
+ ├─created_at: 2014-07-01
+ └─timezone: UTC (UTC+0000)
+[+] MyAnimeList: https://myanimelist.net/profile/vishnuvv
+ ├─mal_username: vishnuvv
+ └─mal_uid: 19691743
+[+] Freelancer.com: https://www.freelancer.com/api/users/0.1/users?usernames%5B%5D=vishnuvv&compact=true
+ ├─id: 9331638
+ ├─nickname: vishnuvv
+ ├─username: vishnuvv
+ ├─fullname: Vishnu
+ ├─role: freelancer
+ ├─location: Bangalore, India
+ └─created_at: 2013-10-29 08:53:49 UTC
+[+] LeetCode: https://leetcode.com/u/vishnuvv/
+ ├─username: vishnuvv
+ ├─fullname: vishnuvv
+ ├─image: https://assets.leetcode.com/users/default_avatar.jpg
+ └─ranking: 5000001
+[+] Letterboxd: https://letterboxd.com/vishnuvv
+[+] Chess: https://www.chess.com/member/vishnuvv
+ ├─chess_user_id: 103481106
+ ├─username: vishnuvv
+ ├─fullname: vishnu viswa teja
+ ├─country_code: IN
+ ├─follower_count: 2
+ ├─status: basic
+ ├─is_streamer: False
+ ├─is_verified: False
+ ├─created_at: 2020-12-11 09:27:37 UTC
+ └─latest_activity_at: 2023-04-27 08:14:34 UTC
+[+] Gog: https://www.gog.com/u/vishnuvv
+[+] Blogger: https://vishnuvv.blogspot.com
+ ├─blog_id: 610485111497706278
+ └─uid: 13646222107654522272
+[+] Flipboard: https://flipboard.com/@vishnuvv
+[+] Flickr: https://www.flickr.com/photos/vishnuvv
+[+] Gumroad: https://www.gumroad.com/vishnuvv
+[+] Bandcamp: https://www.bandcamp.com/vishnuvv
+[+] Codecanyon: https://codecanyon.net/user/vishnuvv
+[+] Disqus: https://disqus.com/vishnuvv
+ ├─id: 159275232
+ ├─fullname: vishnu vv
+ ├─disqus_username: vishnuvv
+ ├─reputation: 1.232124
+ ├─reputation_label: Average
+ ├─following_count: 0
+ ├─follower_count: 0
+ ├─is_power_contributor: False
+ ├─is_anonymous: False
+ ├─created_at: 2015-05-27T13:22:56
+ ├─upvotes_count: 0
+ ├─forums_count: 0
+ ├─image: https://disqus.com/api/users/avatars/vishnuvv.jpg
+ ├─forums_following_count: 0
+ ├─is_private: False
+ └─comments_count: 1
+[+] Slides: https://slides.com/vishnuvv
+[+] Audiojungle: https://audiojungle.net/user/vishnuvv
+[+] Kick: https://kick.com/vishnuvv
+[+] Picsart: https://picsart.com/u/vishnuvv
+ ├─picsart_id: 158051419000102
+ ├─picsart_username: vishnuvv
+ ├─fullname: vishnu
+ ├─image: http://cdn21.picsart.com/145116821005201.png
+ ├─follower_count: 0
+ ├─following_count: 5
+ ├─likes_count: 4
+ ├─photos_count: 1
+ └─is_verified: False
+[+] Clubhouse: https://www.clubhouse.com/@vishnuvv
+[+] VideoHive: https://videohive.net/user/vishnuvv
+[+] Codementor: https://www.codementor.io/@vishnuvv
+[+] VSCO: https://vsco.co/vishnuvv
+[+] FilmWeb: https://www.filmweb.pl/user/vishnuvv
+[+] Codechef: https://www.codechef.com/users/vishnuvv
+[+] Codewars: https://www.codewars.com/users/vishnuvv
+[+] Smule: https://www.smule.com/vishnuvv
+[+] CGTrader: https://www.cgtrader.com/vishnuvv
+[+] Anime-planet: https://www.anime-planet.com/users/vishnuvv
+[+] Snapchat: https://www.snapchat.com/add/vishnuvv
+ ├─bio: Vishnu Vv Snapchat पर हैं! (@vishnuvv) | आखिरी बार अपडेट करने की तारीख: 05/24/2025
+ ├─url: https://www.snapchat.com/@vishnuvv
+ ├─image: https://www.snapchat.com/web-capture/www.snapchat.com/@vishnuvv/preview/square.jpeg?xp_id=1
+ └─profile_type: publicProfileInfo
+[+] Tinder: https://www.tinder.com/@vishnuvv
+[+] GitHubGist [GitHub]: https://gist.github.com/vishnuvv
+[!] Too many errors of type "Bot protection" (13.16%). Try to switch to another ip address
+[-] You can see detailed site check errors with a flag `--print-errors`
+[-] Extracted IDs: {'vishnuvv': 'username', 'Vishnuvv': 'username', '76561198268957841': 'steam_id'}
+[-] TXT report for vishnuvv saved in /home/adhi/tracekit/output/user_vishnuvv_2026-11-13_2350/maigret/report_vishnuvv.txt
+[*] Checking steam_id 76561198268957841 on:
+[+] Steam (by id) [Steam]: https://steamcommunity.com/profiles/76561198268957841
+ ├─steam_id: 76561198268957841
+ ├─nickname: VishNorseManiac
+ └─username: vishnuvv
+[!] Too many errors of type "Bot protection" (25.0%). Try to switch to another ip address
+[!] Too many errors of type "Captcha" (25.0%). Try to switch to another ip address or to use service cookies
+[!] Too many errors of type "Just a moment: bot redirect challenge" (25.0%)
+[-] You can see detailed site check errors with a flag `--print-errors`
+[-] Extracted IDs: {'76561198268957841': 'steam_id', 'vishnuvv': 'username'}
+[-] TXT report for 76561198268957841 saved in /home/adhi/tracekit/output/user_vishnuvv_2026-11-13_2350/maigret/report_76561198268957841.txt
+[*] Short text report:
+Search by username vishnuvv returned 61 accounts.
+Found target's other IDs: Vishnuvv, 76561198268957841 (steam_id).
+Search by steam_id 76561198268957841 returned 1 accounts.
+Extended info extracted from 25 accounts.
+Countries: in, pl
+Interests (tags): social, business, apps, coding, design, sharing, art, shopping, tech, photo, gaming, education, blog, freelance, messaging, networking, video, discussion, forum, music, streaming, hobby, finance, review, writing, anime, movies, research, llm, professional, fintech, travel, trading, links, crypto, nft, news, stock, 3d, dating

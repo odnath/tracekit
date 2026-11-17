@@ -1,0 +1,3 @@
+Error: Profile adinathmnair does not exist.
+Instagram often blocks anonymous requests (401 / login required / rate limit).
+Wait a few minutes and retry. Do not use fake accounts to log in.

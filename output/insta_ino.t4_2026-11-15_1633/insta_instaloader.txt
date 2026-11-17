@@ -1,0 +1,8 @@
+JSON Query to api/v1/users/web_profile_info/: 429 Too Many Requests when accessing https://www.instagram.com/api/v1/users/web_profile_info/?username=ino.t4 [retrying; skip with ^C]
+Number of requests within last 10/11/20/22/30/60 minutes grouped by type:
+ *                            other:    2    2    2    2    2    2
+Instagram responded with HTTP error "429 - Too Many Requests". Please
+do not run multiple instances of Instaloader in parallel or within
+short sequence. Also, do not use any Instagram App while Instaloader
+is running.
+The request will be retried in 664 seconds, at 16:45.

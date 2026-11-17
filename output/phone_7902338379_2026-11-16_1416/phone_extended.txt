@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "<stdin>", line 3, in <module>
+  File "/home/adhi/tracekit/venv/lib/python3.14/site-packages/phonenumbers/phonenumberutil.py", line 2963, in parse
+    raise NumberParseException(NumberParseException.INVALID_COUNTRY_CODE,
+                               "Missing or invalid default region.")
+phonenumbers.phonenumberutil.NumberParseException: (0) Missing or invalid default region.

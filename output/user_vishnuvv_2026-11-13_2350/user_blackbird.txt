@@ -1,0 +1,97 @@
+
+    ▄▄▄▄    ██▓    ▄▄▄       ▄████▄   ██ ▄█▀ ▄▄▄▄    ██▓ ██▀███  ▓█████▄ 
+    ▓█████▄ ▓██▒   ▒████▄    ▒██▀ ▀█   ██▄█▒ ▓█████▄ ▓██▒▓██ ▒ ██▒▒██▀ ██▌
+    ▒██▒ ▄██▒██░   ▒██  ▀█▄  ▒▓█    ▄ ▓███▄░ ▒██▒ ▄██▒██▒▓██ ░▄█ ▒░██   █▌
+    ▒██░█▀  ▒██░   ░██▄▄▄▄██ ▒▓▓▄ ▄██▒▓██ █▄ ▒██░█▀  ░██░▒██▀▀█▄  ░▓█▄   ▌
+    ░▓█  ▀█▓░██████▒▓█   ▓██▒▒ ▓███▀ ░▒██▒ █▄░▓█  ▀█▓░██░░██▓ ▒██▒░▒████▓ 
+    ░▒▓███▀▒░ ▒░▓  ░▒▒   ▓▒█░░ ░▒ ▒  ░▒ ▒▒ ▓▒░▒▓███▀▒░▓  ░ ▒▓ ░▒▓░ ▒▒▓  ▒ 
+    ▒░▒   ░ ░ ░ ▒  ░ ▒   ▒▒ ░  ░  ▒   ░ ░▒ ▒░▒░▒   ░  ▒ ░  ░▒ ░ ▒░ ░ ▒  ▒ 
+    ░    ░   ░ ░    ░   ▒   ░        ░ ░░ ░  ░    ░  ▒ ░  ░░   ░  ░ ░  ░ 
+    ░          ░  ░     ░  ░░ ░      ░  ░    ░       ░     ░        ░    
+        ░                  ░                     ░               ░      
+
+    
+             Use --email-file to load multiple emails from a file. | by Lucas 
+Antoniaci
+🔄 Checking for updates...
+✔️  Sites List is up to date
+  ✔️  [Codewars] https://www.codewars.com/api/v1/users/vishnuvv
+  ✔️  [Freelancer] 
+https://www.freelancer.com/api/users/0.1/users?usernames%5B%5D=vishnuvv&compact=
+true
+  ✔️  [Twitter archived tweets] 
+http://archive.org/wayback/available?url=https://twitter.com/vishnuvv/status/*
+  ✔️  [MyAnimeList] https://myanimelist.net/profile/vishnuvv
+  ✔️  [Kaggle] https://www.kaggle.com/vishnuvv
+  ✔️  [Telegram] https://t.me/vishnuvv
+  ✔️  [Kick] https://kick.com/api/v2/channels/vishnuvv
+  ✔️  [Tenor] https://tenor.com/users/vishnuvv
+  ✔️  [kik] https://kik.me/vishnuvv
+  ✔️  [themeforest] https://themeforest.net/user/vishnuvv
+  ✔️  [Vimeo] https://vimeo.com/vishnuvv
+  ✔️  [GitHub (User)] https://api.github.com/users/vishnuvv
+  ✔️  [Roblox] 
+https://auth.roblox.com/v1/usernames/validate?username=vishnuvv&birthday=2019-12
+-31T23:00:00.000Z
+  ✔️  [DeviantArt] https://www.deviantart.com/vishnuvv
+  ✔️  [Audiojungle] https://audiojungle.net/user/vishnuvv
+  ✔️  [LeetCode] https://leetcode.com/graphql/
+  ✔️  [GOG] https://www.gog.com/u/vishnuvv
+  ✔️  [Tinder] https://tinder.com/@vishnuvv
+  ✔️  [Bandlab] https://www.bandlab.com/api/v1.3/users/vishnuvv
+  ✔️  [TradingView] https://www.tradingview.com/u/vishnuvv/
+  ✔️  [Discord (User)] 
+https://discord.com/api/v9/unique-username/username-attempt-unauthed
+  ✔️  [lichess.org] 
+https://lichess.org/api/player/autocomplete?term=vishnuvv&exists=1
+  ✔️  [Bandcamp] https://bandcamp.com/vishnuvv
+  ✔️  [Linktree] https://linktr.ee/vishnuvv
+  ✔️  [Disqus] 
+https://disqus.com/api/3.0/users/details?user=username:vishnuvv&api_key=E8Uh5l5f
+HZ6gD8U3KycjAIAk46f68Zw7C6eW8WSjZvCLXebZ7p0r1yrYDrLilk2F
+  ✔️  [Behance] https://www.behance.net/vishnuvv
+  ✔️  [Docker Hub (User)] https://hub.docker.com/v2/users/vishnuvv/
+  ✔️  [Docker Hub (Organization)] https://hub.docker.com/v2/orgs/vishnuvv/
+  ✔️  [Scratch] https://api.scratch.mit.edu/accounts/checkusername/vishnuvv/
+  ✔️  [Scribd (Document)] 
+https://www.scribd.com/search/query?query=vishnuvv&verbatim=true
+  ✔️  [Blogspot] https://vishnuvv.blogspot.com/?hl=en-US
+  ✔️  [hackerearth] https://www.hackerearth.com/@vishnuvv
+  ✔️  [Hacker News] 
+https://hacker-news.firebaseio.com/v0/user/vishnuvv.json?print=pretty
+  ✔️  [Duolingo] 
+https://www.duolingo.com/2017-06-30/users?username=vishnuvv&_=1628308619574
+      ➡  Avatar: https://simg-ssl.duolingo.com/avatar/default_2
+      ➡  Name: Vishnu Valsalan
+      ➡  Courses:
+         🔵 German
+  ✔️  [slides] https://slides.com/vishnuvv
+  ✔️  [Etoro] https://www.etoro.com/api/logininfo/v1.1/users/vishnuvv
+  ✔️  [PayPal.Me] https://www.paypal.com/paypalme/vishnuvv
+  ✔️  [smule] https://www.smule.com/api/profile/?handle=vishnuvv
+  ✔️  [WordPress.org (Forums)] 
+https://login.wordpress.org/wp-json/wporg/v1/username-available/vishnuvv
+  ✔️  [WordPress.org (Profiles)] 
+https://login.wordpress.org/wp-json/wporg/v1/username-available/vishnuvv
+  ✔️  [X] https://api.x.com/i/users/username_available.json?username=vishnuvv
+  ✔️  [Picsart] https://api.picsart.com/users/show/vishnuvv.json
+  ✔️  [Pinterest] https://www.pinterest.com/vishnuvv/
+  ✔️  [Figma] https://www.figma.com/api/profile/handle/vishnuvv
+  ✔️  [HuggingFace] https://huggingface.co/vishnuvv
+  ✔️  [Spotify] https://open.spotify.com/user/vishnuvv
+  ✔️  [YouNow] https://api.younow.com/php/api/broadcast/info/user=vishnuvv
+  ✔️  [YouTube User2] https://www.youtube.com/@vishnuvv
+  ✔️  [Steam] https://steamcommunity.com/id/vishnuvv
+  ✔️  [Clubhouse] https://www.clubhouse.com/@vishnuvv
+  ✔️  [Flipboard] https://flipboard.com/@vishnuvv
+  ✔️  [Imgur] 
+https://api.imgur.com/account/v1/accounts/vishnuvv?client_id=546c25a59c58ad7
+  ✔️  [Codeforces] https://codeforces.com/api/user.info?handles=vishnuvv
+  ✔️  [Monkeytype] https://api.monkeytype.com/users/vishnuvv/profile
+  ✔️  [Instagram] https://www.instagram.com/vishnuvv/
+  ✔️  [codementor] https://www.codementor.io/@vishnuvv
+  ✔️  [Substack] https://substack.com/api/v1/user/vishnuvv/public_profile
+  ✔️  [Poshmark] https://poshmark.com/closet/vishnuvv
+  ✔️  [Instructables] 
+https://www.instructables.com/json-api/showAuthorExists?screenName=vishnuvv
+🛰️  Enumerating accounts with username "vishnuvv" — 100% (691/691)🏁 Check completed in 69.2 seconds

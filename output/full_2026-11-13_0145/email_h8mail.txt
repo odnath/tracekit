@@ -1,0 +1,47 @@
+/home/adhi/.local/share/pipx/venvs/h8mail/lib/python3.14/site-packages/h8mail/utils/url.py:19: SyntaxWarning: "\(" is an invalid escape sequence. Such sequences will not work in the future. Did you mean "\\("? A raw string is also an option.
+  "http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\(\), ]|(?:%[0-9a-fA-F][0-9a-fA-F]))+",
+[37m 		  Official h8mail posts: 
+		  https://khast3x.club/tags/h8mail/
+
+ [0m
+	 [36m Version 2.5.6 - "ROCKSMASSON.6"  [0m
+[01m[38;5;33m [0m
+[01m[38;5;69m 	._____. ._____.     ;____________;[0m
+[01m[38;5;69m 	| ._. | | ._. |     ;   h8mail   ;[0m
+[01m[38;5;105m 	| !_| |_|_|_! |     ;------------;[0m
+[01m[38;5;105m 	!___| |_______!  Heartfelt Email OSINT[0m
+[01m[38;5;141m 	.___|_|_| |___.    Use responsibly[0m
+[01m[38;5;141m 	| ._____| |_. | ;____________________;[0m
+[01m[38;5;177m 	| !_! | | !_! | ; github.com/khast3x ;[0m
+[01m[38;5;177m 	!_____! !_____! ;--------------------;[0m
+[01m[38;5;213m 	[0m
+[01m[32m[>] [0mh8mail is up to date
+[01m[94m[~] [0m[37mRemoving duplicates[0m
+[01m[32m[>] [0mTargets:
+[01m[32m[>] [0madinathmnair1@gmail.com
+[01m[94m[~] [0m[37mscylla.so is down, skipping[0m
+[01m[94m[~] [0m[37mTarget factory started for adinathmnair1@gmail.com[0m
+[01m[94m[~] [0m[37m[adinathmnair1@gmail.com]>[hunter.io public][0m
+[01m[31m[!] [0mhunter.io (public API) error: adinathmnair1@gmail.com
+'data'
+
+[01m __________________________________________________________________________________________
+ [0m
+[01m[32m[>] [0mShowing results for adinathmnair1@gmail.com[0m
+
+[01m[94m[~] [0m[37mNo results founds[0m
+__________________________________________________________________________________________
+
+
+
+                                 [01m [04m Session Recap: [0m 
+
+
+                 Target                  |                   Status                  [0m
+__________________________________________________________________________________________
+
+        adinathmnair1@gmail.com          |  [37m             Not Compromised              [0m
+__________________________________________________________________________________________
+
+Execution time (seconds):  [96m 2.6671218872070312 [0m 
+

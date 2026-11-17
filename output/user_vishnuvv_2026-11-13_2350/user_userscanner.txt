@@ -1,0 +1,420 @@
+      _   _ ___  ___ _ __      ___  ___ __ _ _ __  _ __   ___ _ __
+     | | | / __|/ _ \ '__|____/ __|/ __/ _` | '_ \| '_ \ / _ \ '__|
+     | |_| \__ \  __/ | |_____\__ \ (_| (_| | | | | | | |  __/ |
+      \__,_|___/\___|_|       |___/\___\__,_|_| |_|_| |_|\___|_| Version: 1.5.2.5
+
+      🌐 Web App: https://user-scanner.app
+
+
+ Checking username: vishnuvv
+
+== CREATOR SITES ==
+  [✔] Beacons (vishnuvv): Found
+      ├── name: @vishnuvv | youtube.com, Instagram | Beacons
+      ├── description: @vishnuvv: youtube.com, Instagram. Featured links: youtube.com, Instagram, YouTube. Shop featured products. Email signup available.
+      ├── featured_link: https://youtube.com/channel/UChhSJLwbLdv1oHf7qHPNZGg
+      └── avatar: https://cdn.beacons.ai/profile_pictures/youtube/vishnuvv?q=1752079274.1038368
+  [✔] Twitch (vishnuvv): Found
+      ├── id: 471263398
+      └── followers: 0
+  [✔] Kaggle (vishnuvv): Found
+      └── name: vishnu
+  [✔] Substack (vishnuvv): Found
+      ├── display_name: Vishnu
+      ├── handle: vishnuvv
+      ├── subscribers: 0
+      └── followers: 0
+  [✔] Vimeo (vishnuvv): Found
+      ├── id: 5809665
+      ├── display_name: vishnuvv.3d
+      ├── created_on: 2011-01-22 06:30:10
+      ├── location: kerala
+      ├── bio: 
+            3D Motion Graphics Designer. More than 4 year experience about Motion Graphics. <br />
+            Software Known- 3DS Max, Maya, Cinema 4D, After Effects, Photoshop,<br />
+            <br />
+            Email- vishnuvv.3d@gmail.com
+      ├── videos: 23
+      ├── contacts: 2
+      ├── channels: 0
+      └── liked: 0
+  [✔] Medium (vishnuvv): Found
+      ├── username: vishnuvv
+      ├── fullname: Vishnu V V
+      ├── id: e479023f182d
+      ├── joined: 2024-09-02
+      ├── followers: 0
+      ├── following: 1
+      └── avatar: https://miro.medium.com/v2/resize:fit:2400/1*dmbNkD5D-u45r44go_cf0g.png
+  [✔] Gumroad (vishnuvv): Found
+      ├── uid: 7412875704161
+      ├── name: vishnuvv
+      ├── verified: False
+      ├── avatar: https://assets.gumroad.com/images/gumroad-default-avatar-5.png
+      └── preview: https://public-files.gumroad.com/qkevbt9fw3hcyvx1v241habhu210
+
+== OTHER SITES ==
+  [✔] Freelancer (vishnuvv): Found
+      ├── id: 9331638
+      ├── username: vishnuvv
+      ├── display_name: vishnuvv
+      ├── role: freelancer
+      ├── registration_date: 1383036829
+      └── location: Bangalore, India
+  [✔] Tripadvisor (vishnuvv): Found
+      ├── name: Vishnuvv
+      ├── user_id: 1AC9FD6FC136672F69ED006610060EA8
+      ├── joined: 2014-09-30
+      ├── hometown: Bengaluru, India
+      ├── verified: False
+      └── avatar: https://media-cdn.tripadvisor.com/media/photo-o/1a/f6/ee/10/default-avatar-2020-8.jpg
+
+== CREATIVE SITES ==
+  [✔] Deviantart (vishnuvv): Found
+      ├── title: vishnuvv on DeviantArt
+      └── description: vishnuvv is an artist on DeviantArt.  · Artworks: 0 · Followers: 0 · Likes: 0
+  [✔] Figma (vishnuvv): Found
+      ├── name: Vishnu V V
+      └── avatar: https://www.gravatar.com/avatar/40b6467f699bde7f261d4e2cbbc33ded?size=240&default=https%3A%2F%2Fs3-alpha.figma.com%2Fstatic%2Fuser_v_v2.png
+  [✔] Flickr (vishnuvv): Found
+      ├── display_name: vishnuvaranasi
+      ├── fullname: vishnu vardhan
+      ├── user_id: 53744972@N02
+      ├── path_alias: vishnuvv
+      ├── photos: 31
+      ├── followers: 3
+      ├── following: 2
+      └── avatar: https://combo.staticflickr.com/pw/images/bbuddyicon00_r.png#53744972@N02
+  [✔] Picsart (vishnuvv): Found
+      ├── id: 158051419000102
+      ├── name: vishnu
+      ├── followers: 0
+      ├── following: 5
+      ├── likes: 4
+      ├── photos: 1
+      ├── stickers: 0
+      ├── videos: 0
+      ├── tags_count: 0
+      ├── is_verified: False
+      └── avatar: http://cdn21.picsart.com/145116821005201.png
+  [✔] Behance (vishnuvv): Found
+      ├── id: 4489451
+      ├── fullname: Vishnu Prasad
+      ├── location: United Arab Emirates
+      ├── company: Vedic Interiors  00971 557943014
+      ├── occupation: Interior Designer & 3D Visualizer
+      ├── joined: 2013-12-21
+      ├── follower_count: 481
+      ├── following_count: 394
+      ├── views_count: 25915
+      ├── appreciations_count: 931
+      └── avatar: https://pps.services.adobe.com/api/profile/AE117D445361C35F0A490D4D@AdobeID/image/3f3ff75c-afa2-48af-ade7-d180023bfa86/276
+  [✔] Dreamstime (vishnuvv): Found
+
+== SHOPPING SITES ==
+  [✔] Fiverr (vishnuvv): Found
+  [✔] Themeforest (vishnuvv): Found
+      ├── display_name: Vishnuvv
+      ├── location: India
+      ├── member_since: July 2021
+      ├── account_type: member
+      ├── followers: 0
+      ├── following: 0
+      └── badges: 5 Years of Membership: Has been part of the Envato Community for over 5 years; Located in India
+  [✔] Codecanyon (vishnuvv): Found
+  [✔] Redbubble (vishnuvv): Found
+
+== SOCIAL SITES ==
+  [✔] Weebly (vishnuvv): Found
+      └── title: vishnu - Home
+  [✔] Imgur (vishnuvv): Found
+      ├── id: 40209059
+      ├── reputation: 0
+      ├── reputation_name: Neutral
+      ├── created_at: 2016-09-19T09:32:42Z
+      └── trophies: 10 Years, Gone Mobile
+  [✔] Instagram (vishnuvv): Found
+      ├── fullname: Vichu Vishnu
+      ├── follower_count: 776
+      ├── following_count: 1,751
+      ├── post_count: 141
+      ├── bio: Nothing is permanent...:-)
+      ├── id: 40995239
+      ├── verified: False
+      ├── private: False
+      └── avatar: https://scontent.cdninstagram.com/v/t51.82787-19/783856830_18624455830035240_5696547255793345349_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=108&ig_cache_key=GL60uC4oW_IJ2CpCAEXjySuMMw5PbmNDAQAB1501500j-ccb7-5&ccb=7-5&_nc_sid=669407&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=nllMRrBLCD0Q7kNvwGXHaz9&_nc_oc=AdpR7PVA_PEDniYT7X463LmHoviaEeGYDWOnSMmPu6Z5d38zRr-1XmxMeEvto1XQpmHl-k6afNqa9wnznpNPHCxT&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=w_7kBFvlnKPrMvG8vah_xg&_nc_ss=79689&_nc_ct=RQosPBUCFQIAAAA&oh=00_AQSquid40FJK8922hdFelYTjc6-7gK_4qebKrc04JqbI-w&oe=6AFD1B1B
+  [✔] Animeplanet (vishnuvv): Found
+      ├── id: 6478315
+      ├── joined: Apr 12, 2024
+      ├── last_online: Apr 12, 2024
+      ├── followers: 0
+      ├── following: 0
+      ├── anime_watched: 0
+      ├── anime_watching: 0
+      ├── anime_want_to_watch: 2
+      ├── anime_stalled: 0
+      ├── anime_dropped: 0
+      ├── anime_wont_watch: 0
+      ├── manga_read: 1
+      ├── manga_reading: 0
+      ├── manga_want_to_read: 0
+      ├── manga_stalled: 0
+      ├── manga_dropped: 0
+      ├── manga_wont_read: 0
+      ├── anime_total_episodes: 0
+      ├── anime_time: ['0 minutes']
+      ├── manga_time: ['30 minutes', '15 hours']
+      ├── forum_profile: https://www.anime-planet.com/forum/members/vishnuvv.4007018
+      └── forum_id: 4007018
+  [✔] Pinterest (vishnuvv): Found
+      ├── name: VV VISHNU
+      ├── followers: 9
+      ├── following: 40
+      ├── boards: 6
+      ├── pins: 157
+      └── avatar: https://s.pinimg.com/images/user/default_280.png
+  [✔] Telegram (vishnuvv): Found
+  [✔] Youtube (vishnuvv): Found
+      ├── youtube_channel_id: UCb6YSQsUaOv6yj01nJIbECA
+      ├── channel_url: https://www.youtube.com/channel/UCb6YSQsUaOv6yj01nJIbECA
+      ├── fullname: Vishnu Valiyamadathil Vivekanandan
+      ├── bio: Thinking of starting a beagle farm in the name of a male beagle puppy whose name is Charlie. And all others coming after him are his angels
+      ├── subscribers: 3 subscribers
+      └── image: https://yt3.googleusercontent.com/ytc/AIdro_kfUJDHE-vDakYSh5ZdPmAryihWuSDoclaOeH-Ud90IWIf9=s900-c-k-c0x00ffffff-no-rj
+  [✔] Myanimelist (vishnuvv): Found
+      ├── last_online: Feb 22, 2025 11:42 PM
+      ├── joined: Feb 16, 2025
+      └── forum_posts: 0
+  [✔] Letterboxd (vishnuvv): Found
+      ├── name: vishnuvv
+      ├── bio: vishnuvv uses Letterboxd to share film reviews and lists.
+      └── avatar: https://s.ltrbxd.com/static/img/avatar1000-BdGBhe59.png
+  [✔] Kik (vishnuvv): Found
+      ├── fullname: ~¤+.√工$нηu.+¤~ V v
+      └── avatar: http://profilepics.cf.kik.com/bV75wFziJrG_UQcPp68qGG-rQw8/thumb.jpg
+  [✔] Discord (vishnuvv): Found
+  [✔] Facebook (vishnuvv): Found
+      └── name: Vishnu V V Vijayan
+  [✔] Tenor (vishnuvv): Found
+      └── username: vishnuvv
+  [✔] Blogger (vishnuvv): Found
+      └── title: not ME but YOU
+  [✔] Snapchat (vishnuvv): Found
+  [✔] Clubhouse (vishnuvv): Found
+      ├── fullname: Vishnu Vv
+      ├── bio: Media Professional
+      ├── twitter: iamvishnu_0
+      ├── instagram: canteloopmedia
+      ├── followers: 43
+      ├── following: 30
+      ├── friends: 11
+      └── avatar: https://d14u0p1qkech25.cloudfront.net/1512579690_650a25ae-655f-44e0-8ebc-84555c48647d_thumbnail_250x250
+  [✔] X (twitter) (vishnuvv): Found
+  [✔] Threads (vishnuvv): Found
+      ├── name: Vichu Vishnu
+      ├── followers: 169
+      ├── threads: 11
+      ├── bio: Nothing is permanent...:-).
+      └── avatar: https://scontent.cdninstagram.com/v/t51.2885-19/358804161_671446444843866_6929140763986016514_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=105&ccb=7-5&_nc_sid=b3fa00&_nc_ohc=q0-PTOtGZiQQ7kNvwEIh4Wy&_nc_oc=AdoZaNtPCI7na5En4KAuwo8x5orI8hUbGNEZRA65iVr3viHxilHniFmC7t7rBo3ngCXEn7n2WfHru1HnqiwjAmaX&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_ss=79289&oh=00_AQQEdr5ywN7MTl2w6kaFwuc174ayo577UC3OJ81P5iAt1Q&oe=6AFD11C6
+
+== GAMING SITES ==
+  [✔] Monkeytype (vishnuvv): Found
+      ├── username: VishnuVV
+      ├── uid: DM6wFkSsW3N7UbbcJEM2zD959GE3
+      ├── joined: 2021-08-02
+      ├── tests_completed: 2646
+      ├── time_typing: 41.7 hours
+      ├── best_wpm: 164.54
+      ├── xp: 858380
+      └── max_streak: 28 days
+  [✔] Chess.com (vishnuvv): Found
+      ├── name: vishnu viswa teja
+      ├── username: vishnuvv
+      ├── status: basic
+      ├── league: Wood
+      ├── followers: 2
+      ├── country: IN
+      ├── joined: 2020-12-11
+      └── last_online: 2023-04-27
+  [✔] Roblox (vishnuvv): Found
+      ├── display_name: vishnuVV
+      ├── uid: 1345477719
+      ├── is_verified: False
+      ├── created: 2019-12-04T11:16:43.01Z
+      └── avatar: https://t6.rbxcdn.com/30DAY-AvatarHeadshot-51E47F0C53DA3A617158586DF73B1236-Png
+  [✔] Lichess (vishnuvv): Found
+      └── name: vsnu 95
+  [✔] Steam (vishnuvv): Found
+      ├── steam_id: 76561198268957841
+      ├── persona_name: VishNorseManiac
+      ├── real_name: vishnu
+      └── avatar: https://avatars.fastly.steamstatic.com/01d4c610d7a48e156612f69c59374e473218b6da_full.jpg
+  [✔] Kick (vishnuvv): Found
+      ├── display_name: vishnuvv
+      ├── user_id: 104075955
+      ├── channel_id: 102849288
+      ├── verified: False
+      ├── followers: 0
+      ├── is_banned: False
+      ├── is_affiliate: False
+      ├── subscriptions_enabled: False
+      ├── vod_enabled: True
+      └── is_live: False
+
+== EMAIL SITES ==
+  [✔] Protonmail (vishnuvv): Found
+
+== COMMUNITY SITES ==
+  [✔] Instructables (vishnuvv): Found
+      └── title: vishnuvv
+  [✔] Disqus (vishnuvv): Found
+      ├── id: 159275232
+      ├── name: vishnu vv
+      ├── numposts: 1
+      ├── joinedat: 2015-05-27T13:22:56
+      └── rep: 1.232124
+  [✔] Hackernews (vishnuvv): Found
+      ├── joined: May 26, 2025
+      └── karma: 1
+  [✔] Fandom (vishnuvv): Found
+      ├── name: Vishnuvv
+      ├── user_id: 29268467
+      ├── registered: 2016-07-24T15:24:00Z
+      └── groups: user, autoconfirmed
+  [✔] Academia (vishnuvv): Found
+      ├── name: vishnu vv
+      ├── joined: 2013-12-18
+      ├── updated: 2013-12-18
+      ├── user_id: 7676079
+      ├── interests: Mechanical Engineering, Compressed Air Car, Aerodynamics
+      ├── followers: 0
+      └── following: 1
+
+== FINANCE SITES ==
+  [✔] Fragment (vishnuvv): Found
+      └── username: vishnuvv
+  [✔] Paypal (vishnuvv): Found
+      ├── handle: vishnuvv
+      ├── name: Vishnu V V
+      ├── country: Vellimuttam, Kerala
+      ├── currency: USD
+      ├── account_type: PERSONAL
+      ├── avatar: https://pics.paypal.com/00/s/ODAwWDYwMFhKUEc/p/NzE4ODg0MWUtNzYyOS00NmIzLTlmNjgtNzY4MjkwY2RmMTFm/image_58.jpg
+      └── banner: https://www.paypalobjects.com/profiles/cover/purple.jpg
+  [✔] Etoro (vishnuvv): Found
+      └── avatar: https://etoro-cdn.etorostatic.com/images/avatoros/35x35/ae.png
+  [✔] Tradingview (vishnuvv): Found
+
+== ADULT SITES ==
+  [✔] Camsoda (vishnuvv): Found
+      └── type: member
+
+== DEV SITES ==
+  [✔] Huggingface (vishnuvv): Found
+      ├── name: v
+      ├── models: 0
+      ├── datasets: 0
+      ├── spaces: 0
+      ├── followers: 0
+      ├── following: 0
+      └── avatar: https://huggingface.co/avatars/f8bcf3ccf10f18142099969950d8e91a.svg
+  [✔] Dockerhub (vishnuvv): Found
+      ├── id: 2b7dc1e35bd04febb29aa4431dde029a
+      ├── joined: 2018-08-19T05:43:20.65931Z
+      └── type: User
+  [✔] Hackerearth (vishnuvv): Found
+  [✔] Daily.dev (vishnuvv): Found
+      ├── name: VISHNU VV
+      ├── reputation: 10
+      ├── joined: 2022-11-08T17:54:27.782Z
+      ├── followers: 0
+      └── following: 0
+  [✔] Codewars (vishnuvv): Found
+      ├── id: 6535a50449d3ef06a8de20c4
+      ├── honor: 0
+      ├── rank_name: 8 kyu
+      └── score: 0
+  [✔] Hhf (vishnuvv): Found
+      ├── name: Vishnuvv
+      ├── trust_level: 3
+      ├── joined: 2023-03-27T09:14:22.000Z
+      └── avatar: https://forum.hhf.technology/user_avatar/forum.hhf.technology/vishnuvv/240/85770_2.png
+  [✔] Githubgist (vishnuvv): Found
+      ├── public_gists: 0
+      └── joined: 2013-12-17T11:26:44Z
+  [✔] Scratch (vishnuvv): Found
+      ├── id: 128551955
+      ├── joined: 2024-01-30T01:04:16.000Z
+      ├── country: United States
+      └── avatar: https://cdn2.scratch.mit.edu/get_image/user/128551955_90x90.png?v=
+  [✔] Leetcode (vishnuvv): Found
+      ├── fullname: vishnuvv
+      ├── ranking: 5000001
+      └── image: https://assets.leetcode.com/users/default_avatar.jpg
+  [✔] Github (vishnuvv): Found
+      ├── public_repos: 26
+      ├── created_at: 2013-12-17T11:26:44Z
+      └── avatar: https://avatars.githubusercontent.com/u/6205304?v=4
+  [✔] Launchpad (vishnuvv): Found
+  [✔] Wordpress (vishnuvv): Found
+  [✔] Codeforces (vishnuvv): Found
+      ├── rating: 623
+      ├── maxrating: 785
+      ├── rank: newbie
+      ├── maxrank: newbie
+      └── friendofcount: 0
+
+== MUSIC SITES ==
+  [✔] Bandlab (vishnuvv): Found
+      ├── id: f7510938-add7-e911-b5e9-28187831ee7a
+      ├── name: vishnu
+      ├── joined: 2019-09-15T11:37:40Z
+      ├── followers: 0
+      ├── following: 0
+      ├── plays: 0
+      ├── bands: 0
+      └── avatar: https://bl-prod-images.azureedge.net/v1.0/users/default/
+  [✔] Bandcamp (vishnuvv): Found
+      ├── id: 4851508
+      ├── name: Shamanicbrain🌻
+      ├── location: India
+      ├── bio: Forest?Psycore ?Experimental ?
+      ├── followers: 0
+      ├── following_bands: 1
+      ├── following_fans: 0
+      └── avatar: https://f4.bcbits.com/img/0018860755_10.jpg
+  [✔] Audiojungle (vishnuvv): Found
+      ├── location: India
+      ├── joined: July 2021
+      ├── followers: 0
+      ├── following: 0
+      └── avatar: https://public-assets.envato-static.com/assets/common/icons-buttons/default-user-569c91e7c33c00089a6b1f4bac12d4b00b0d1c3ef76165969f81e77017c89d62.jpg
+
+== LEARNING SITES ==
+  [✔] Quizlet (vishnuvv): Found
+      ├── fullname: Vishnu Vardhan
+      ├── time_zone: America/New_York
+      ├── uploads: 0
+      ├── classes: 0
+      ├── folders: 0
+      └── avatar: https://lh6.googleusercontent.com/-mmq_584Ivf0/AAAAAAAAAAI/AAAAAAAAEZw/Jh9AYSXc1Ks/photo.jpg?sz=150
+  [✔] Duolingo (vishnuvv): Found
+      ├── id: 3015965
+      ├── name: Vishnu Valsalan
+      ├── created: 1367212076
+      ├── total_xp: 12
+      ├── streak: 0
+      └── courses: 1
+  [✔] Openlibrary.user (vishnuvv): Found
+      └── title: vishnuvv | Open Library
+
+
+[i] Scan complete.
+  Total hits: 73
+
+[!] 82 site(s) were unreachable due to regional blocks or rate limits (403/timeout).
+    Tip: Route scans with -P/--proxy-file to get verdicts from blocked sites.
+    Tested provider: https://proxy-seller.com/?partner=A711D0DB08424F5A (use code KAIF15 for 15% off)
+
+🌐 Web platform: https://user-scanner.app — Advanced email OSINT, data breach checks & phone intelligence
+

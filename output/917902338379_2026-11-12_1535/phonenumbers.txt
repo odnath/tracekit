@@ -1,0 +1,5 @@
+Valid: True
+Region: Ahmedabad Local, Gujarat
+Carrier: Idea
+Timezone: ('Asia/Calcutta',)
+International: +91 79023 38379
